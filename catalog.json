@@ -1348,6 +1348,13 @@
         "domain": "dashboard.knock.app"
       },
       {
+        "slug": "loops",
+        "name": "Loops",
+        "url": "https://app.loops.so/settings?page=api",
+        "category": "Email",
+        "domain": "app.loops.so"
+      },
+      {
         "slug": "mailchimp",
         "name": "Mailchimp",
         "url": "https://admin.mailchimp.com/account/api/",
