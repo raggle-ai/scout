@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Raggle Scout Doc",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "slug", "url"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "url": { "type": "string", "format": "uri" }
+  }
+}

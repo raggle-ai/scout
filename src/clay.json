@@ -1,0 +1,13 @@
+{
+  "name": "Clay",
+  "url": "https://app.clay.com/workspaces/{workspace-id}/settings/account",
+  "category": "Productivity",
+  "domain": "app.clay.com",
+  "variables": [
+    {
+      "key": "workspace-id",
+      "label": "Workspace ID",
+      "placeholder": "workspace-id"
+    }
+  ]
+}

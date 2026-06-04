@@ -1,0 +1,6 @@
+{
+  "name": "Stripe",
+  "url": "https://dashboard.stripe.com/apikeys",
+  "category": "Payments",
+  "domain": "dashboard.stripe.com"
+}

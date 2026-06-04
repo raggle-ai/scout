@@ -1,0 +1,42 @@
+name: Deploy Raggle Scout API
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/*.json"
+      - "catalog/**/*.json"
+      - "schemas/**/*.json"
+      - "providers.json"
+      - "catalog.json"
+      - "src/worker.ts"
+      - "scripts/build-providers.mjs"
+      - "scripts/build-catalog.mjs"
+      - "web/**"
+      - "wrangler.toml"
+      - "package.json"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build catalog JSON
+        run: npm run build
+
+      - name: Deploy Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: deploy

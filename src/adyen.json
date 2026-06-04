@@ -1,0 +1,6 @@
+{
+  "name": "Adyen",
+  "url": "https://ca-live.adyen.com/ca/ca/config/api_credentials.shtml",
+  "category": "Payments",
+  "domain": "ca-live.adyen.com"
+}

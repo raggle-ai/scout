@@ -1,0 +1,6 @@
+{
+  "name": "Cloudflare R2",
+  "url": "https://dash.cloudflare.com/?to=/:account/r2",
+  "category": "Storage",
+  "domain": "dash.cloudflare.com"
+}

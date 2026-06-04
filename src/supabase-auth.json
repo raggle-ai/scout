@@ -1,0 +1,6 @@
+{
+  "name": "Supabase Auth",
+  "url": "https://supabase.com/dashboard/project/_/auth/providers",
+  "category": "Auth",
+  "domain": "supabase.com"
+}

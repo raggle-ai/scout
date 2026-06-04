@@ -1,0 +1,13 @@
+{
+  "name": "Plane",
+  "url": "https://app.plane.so/{slug}/settings/access-tokens/",
+  "category": "Productivity",
+  "domain": "app.plane.so",
+  "variables": [
+    {
+      "key": "slug",
+      "label": "Workspace Slug",
+      "placeholder": "acme"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Raggle Scout AI Client",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "slug", "category", "homepage", "platforms"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "category": { "const": "AI Client" },
+    "homepage": { "type": "string", "format": "uri" },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "appNames": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "bundleId": { "type": "string", "minLength": 1 },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["opensProjectFolder", "canResumeProjectSession", "canStartNewProjectSession"],
+      "properties": {
+        "opensProjectFolder": { "type": "boolean" },
+        "canResumeProjectSession": { "type": "boolean" },
+        "canStartNewProjectSession": { "type": "boolean" }
+      }
+    },
+    "deeplinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "urlTemplate"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "label": { "type": "string", "minLength": 1 },
+          "intent": { "enum": ["open-project", "open-folder", "new-session", "resume-session", "settings", "fallback"] },
+          "urlTemplate": { "type": "string", "minLength": 1 },
+          "variables": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/variable" }
+          }
+        }
+      }
+    },
+    "launchers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "kind", "urlTemplate"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "label": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["command", "web"] },
+          "intent": { "enum": ["open-project", "open-folder", "new-session", "resume-session", "settings", "fallback"] },
+          "urlTemplate": { "type": "string", "minLength": 1 },
+          "variables": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/variable" }
+          }
+        }
+      }
+    },
+    "docs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/link" }
+    }
+  },
+  "$defs": {
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "variable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "label"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "placeholder": { "type": "string" },
+        "format": { "enum": ["absolute-path", "uuid", "slug", "string"] },
+        "encoding": { "enum": ["none", "url-component"] }
+      }
+    }
+  }
+}

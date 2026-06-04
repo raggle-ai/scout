@@ -1,0 +1,13 @@
+{
+  "name": "Twilio",
+  "url": "https://1console.twilio.com/account/{ACCOUNT_ID}/settings/us1/api-keys/list",
+  "category": "Email",
+  "domain": "console.twilio.com",
+  "variables": [
+    {
+      "key": "ACCOUNT_ID",
+      "label": "Account ID",
+      "placeholder": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  ]
+}

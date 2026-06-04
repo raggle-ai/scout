@@ -1,0 +1,6 @@
+{
+  "name": "Braintree",
+  "url": "https://sandbox.braintreegateway.com/merchants/",
+  "category": "Payments",
+  "domain": "sandbox.braintreegateway.com"
+}

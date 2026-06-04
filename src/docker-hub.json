@@ -1,0 +1,6 @@
+{
+  "name": "Docker Hub",
+  "url": "https://app.docker.com/settings/personal-access-tokens",
+  "category": "DevOps",
+  "domain": "app.docker.com"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AWS SES",
+  "url": "https://console.aws.amazon.com/ses/home#/smtp",
+  "category": "Email",
+  "domain": "console.aws.amazon.com"
+}

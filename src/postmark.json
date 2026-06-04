@@ -1,0 +1,6 @@
+{
+  "name": "Postmark",
+  "url": "https://account.postmarkapp.com/account/api_tokens",
+  "category": "Email",
+  "domain": "account.postmarkapp.com"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "OpenCode",
+  "slug": "opencode",
+  "category": "AI Client",
+  "homepage": "https://opencode.ai/",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "appNames": ["OpenCode.app", "OpenCode Beta.app"],
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": true,
+    "canStartNewProjectSession": true
+  },
+  "deeplinks": [
+    {
+      "id": "open-project",
+      "label": "Open project in OpenCode",
+      "intent": "open-project",
+      "urlTemplate": "opencode://open-project?directory={absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        }
+      ]
+    },
+    {
+      "id": "new-session",
+      "label": "Start new OpenCode session",
+      "intent": "new-session",
+      "urlTemplate": "opencode://new-session?directory={absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        }
+      ]
+    }
+  ],
+  "launchers": [
+    {
+      "id": "open-project-command",
+      "label": "Open project from terminal",
+      "kind": "command",
+      "intent": "fallback",
+      "urlTemplate": "cd {absolutePath} && opencode",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Documentation",
+      "url": "https://opencode.ai/docs"
+    }
+  ]
+}

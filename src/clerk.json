@@ -1,0 +1,6 @@
+{
+  "name": "Clerk",
+  "url": "https://dashboard.clerk.com/last-active?path=api-keys",
+  "category": "Auth",
+  "domain": "dashboard.clerk.com"
+}

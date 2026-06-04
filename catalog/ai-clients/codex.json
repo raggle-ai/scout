@@ -1,0 +1,76 @@
+{
+  "name": "Codex",
+  "slug": "codex",
+  "category": "AI Client",
+  "homepage": "https://openai.com/codex/",
+  "platforms": ["macOS", "Windows", "Linux", "Web"],
+  "appNames": ["Codex.app"],
+  "bundleId": "com.openai.codex",
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": true,
+    "canStartNewProjectSession": true
+  },
+  "deeplinks": [
+    {
+      "id": "new-thread",
+      "label": "Start new Codex thread",
+      "intent": "new-session",
+      "urlTemplate": "codex://threads/new?path={absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        }
+      ]
+    },
+    {
+      "id": "resume-thread",
+      "label": "Resume Codex thread",
+      "intent": "resume-session",
+      "urlTemplate": "codex://threads/{sessionId}",
+      "variables": [
+        {
+          "key": "sessionId",
+          "label": "Session ID",
+          "placeholder": "00000000-0000-0000-0000-000000000000",
+          "format": "uuid",
+          "encoding": "none"
+        }
+      ]
+    },
+    {
+      "id": "settings-connections",
+      "label": "Open Codex connections settings",
+      "intent": "settings",
+      "urlTemplate": "codex://settings/connections"
+    }
+  ],
+  "launchers": [
+    {
+      "id": "open-project-command",
+      "label": "Open project from terminal",
+      "kind": "command",
+      "intent": "fallback",
+      "urlTemplate": "cd {absolutePath} && codex",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Developer guide",
+      "url": "https://developers.openai.com/api/docs/guides/code-generation"
+    }
+  ]
+}

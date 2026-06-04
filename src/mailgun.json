@@ -1,0 +1,6 @@
+{
+  "name": "Mailgun",
+  "url": "https://app.mailgun.com/app/account/security/api_keys",
+  "category": "Email",
+  "domain": "app.mailgun.com"
+}

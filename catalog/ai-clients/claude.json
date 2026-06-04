@@ -1,0 +1,70 @@
+{
+  "name": "Claude Code",
+  "slug": "claude",
+  "category": "AI Client",
+  "homepage": "https://www.anthropic.com/claude-code",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "appNames": ["Claude.app"],
+  "bundleId": "com.anthropic.claudefordesktop",
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": false,
+    "canStartNewProjectSession": true
+  },
+  "deeplinks": [
+    {
+      "id": "open-project-desktop",
+      "label": "Open project in Claude Code",
+      "intent": "new-session",
+      "urlTemplate": "claude://code/new?folder={absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        }
+      ]
+    },
+    {
+      "id": "open-project-cli",
+      "label": "Open project with Claude CLI bridge",
+      "intent": "fallback",
+      "urlTemplate": "claude-cli://open?cwd={absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        }
+      ]
+    }
+  ],
+  "launchers": [
+    {
+      "id": "open-project-command",
+      "label": "Open project from terminal",
+      "kind": "command",
+      "intent": "fallback",
+      "urlTemplate": "cd {absolutePath} && claude",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Documentation",
+      "url": "https://code.claude.com/docs/en/overview"
+    }
+  ]
+}

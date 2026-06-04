@@ -1,0 +1,13 @@
+{
+  "name": "Attio",
+  "url": "https://app.attio.com/{organisation-slug}/settings/developers/access-tokens",
+  "category": "Productivity",
+  "domain": "app.attio.com",
+  "variables": [
+    {
+      "key": "organisation-slug",
+      "label": "Organisation slug",
+      "placeholder": "workspace-slug"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fourthwall",
+  "url": "https://{shop_url}.fourthwall.com/admin/dashboard/settings/for-developers",
+  "category": "Commerce",
+  "domain": "fourthwall.com",
+  "variables": [
+    {
+      "key": "shop_url",
+      "label": "Shop URL",
+      "placeholder": "your-shop"
+    }
+  ]
+}

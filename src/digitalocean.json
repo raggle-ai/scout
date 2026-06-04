@@ -1,0 +1,6 @@
+{
+  "name": "DigitalOcean",
+  "url": "https://cloud.digitalocean.com/account/api/tokens",
+  "category": "Cloud",
+  "domain": "cloud.digitalocean.com"
+}

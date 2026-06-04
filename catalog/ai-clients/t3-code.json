@@ -1,0 +1,38 @@
+{
+  "name": "T3 Code",
+  "slug": "t3-code",
+  "category": "AI Client",
+  "homepage": "https://t3.codes/",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "appNames": ["T3 Code.app", "T3 Code (Alpha).app"],
+  "bundleId": "com.t3tools.t3code",
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": false,
+    "canStartNewProjectSession": false
+  },
+  "launchers": [
+    {
+      "id": "open-project-command",
+      "label": "Open project from terminal",
+      "kind": "command",
+      "intent": "open-project",
+      "urlTemplate": "cd {absolutePath} && t3 --auto-bootstrap-project-from-cwd",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Documentation",
+      "url": "https://pingdotgg-t3code.mintlify.app/"
+    }
+  ]
+}

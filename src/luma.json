@@ -1,0 +1,13 @@
+{
+  "name": "Luma",
+  "url": "https://luma.com/calendar/manage/{calendar-id}/settings/developer",
+  "category": "Productivity",
+  "domain": "luma.com",
+  "variables": [
+    {
+      "key": "calendar-id",
+      "label": "Calendar ID",
+      "placeholder": "cal-..."
+    }
+  ]
+}

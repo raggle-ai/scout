@@ -1,0 +1,1606 @@
+[
+  {
+    "name": "Anthropic",
+    "url": "https://console.anthropic.com/settings/keys",
+    "category": "AI/ML",
+    "domain": "console.anthropic.com"
+  },
+  {
+    "name": "AssemblyAI",
+    "url": "https://www.assemblyai.com/dashboard/api-keys",
+    "category": "AI/ML",
+    "domain": "assemblyai.com"
+  },
+  {
+    "name": "Baseten",
+    "url": "https://app.baseten.co/settings/api_keys",
+    "category": "AI/ML",
+    "domain": "app.baseten.co"
+  },
+  {
+    "name": "Cartesia",
+    "url": "https://play.cartesia.ai/keys",
+    "category": "AI/ML",
+    "domain": "play.cartesia.ai"
+  },
+  {
+    "name": "Cerebras",
+    "url": "https://cloud.cerebras.ai/platform/",
+    "category": "AI/ML",
+    "domain": "cloud.cerebras.ai"
+  },
+  {
+    "name": "Clarifai",
+    "url": "https://docs.clarifai.com/control/authentication/",
+    "category": "AI/ML",
+    "domain": "docs.clarifai.com"
+  },
+  {
+    "name": "Cohere",
+    "url": "https://dashboard.cohere.com/api-keys",
+    "category": "AI/ML",
+    "domain": "dashboard.cohere.com"
+  },
+  {
+    "name": "Deepgram",
+    "url": "https://console.deepgram.com/project/",
+    "category": "AI/ML",
+    "domain": "console.deepgram.com"
+  },
+  {
+    "name": "DeepSeek",
+    "url": "https://platform.deepseek.com/api_keys",
+    "category": "AI/ML",
+    "domain": "platform.deepseek.com"
+  },
+  {
+    "name": "Eden AI",
+    "url": "https://app.edenai.run/bricks/default/api-keys",
+    "category": "AI/ML",
+    "domain": "app.edenai.run"
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/app/settings/api-keys",
+    "category": "AI/ML",
+    "domain": "elevenlabs.io"
+  },
+  {
+    "name": "fal",
+    "url": "https://fal.ai/dashboard/keys",
+    "category": "AI/ML",
+    "domain": "fal.ai"
+  },
+  {
+    "name": "Fireworks AI",
+    "url": "https://app.fireworks.ai/settings/users/api-keys",
+    "category": "AI/ML",
+    "domain": "app.fireworks.ai"
+  },
+  {
+    "name": "Google AI",
+    "url": "https://aistudio.google.com/app/apikey",
+    "category": "AI/ML",
+    "domain": "aistudio.google.com"
+  },
+  {
+    "name": "Groq",
+    "url": "https://console.groq.com/keys",
+    "category": "AI/ML",
+    "domain": "console.groq.com"
+  },
+  {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/settings/tokens",
+    "category": "AI/ML",
+    "domain": "huggingface.co"
+  },
+  {
+    "name": "Jina AI",
+    "url": "https://jina.ai/embeddings/",
+    "category": "AI/ML",
+    "domain": "jina.ai"
+  },
+  {
+    "name": "Mistral",
+    "url": "https://console.mistral.ai/home?profile_dialog=api-keys",
+    "category": "AI/ML",
+    "domain": "console.mistral.ai"
+  },
+  {
+    "name": "OpenAI",
+    "url": "https://platform.openai.com/api-keys",
+    "category": "AI/ML",
+    "domain": "platform.openai.com"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/settings/api",
+    "category": "AI/ML",
+    "domain": "www.perplexity.ai"
+  },
+  {
+    "name": "Replicate",
+    "url": "https://replicate.com/account/api-tokens",
+    "category": "AI/ML",
+    "domain": "replicate.com"
+  },
+  {
+    "name": "Rev AI",
+    "url": "https://www.rev.ai/access_token",
+    "category": "AI/ML",
+    "domain": "rev.ai"
+  },
+  {
+    "name": "SambaNova",
+    "url": "https://cloud.sambanova.ai/apis",
+    "category": "AI/ML",
+    "domain": "cloud.sambanova.ai"
+  },
+  {
+    "name": "Speechmatics",
+    "url": "https://portal.speechmatics.com/manage-access/",
+    "category": "AI/ML",
+    "domain": "portal.speechmatics.com"
+  },
+  {
+    "name": "Stability AI",
+    "url": "https://platform.stability.ai/account/keys",
+    "category": "AI/ML",
+    "domain": "platform.stability.ai"
+  },
+  {
+    "name": "Together AI",
+    "url": "https://api.together.ai/settings/api-keys",
+    "category": "AI/ML",
+    "domain": "api.together.ai"
+  },
+  {
+    "name": "Voyage AI",
+    "url": "https://dash.voyageai.com/api-keys",
+    "category": "AI/ML",
+    "domain": "dash.voyageai.com"
+  },
+  {
+    "name": "xAI",
+    "url": "https://console.x.ai/",
+    "category": "AI/ML",
+    "domain": "console.x.ai"
+  },
+  {
+    "name": "Adyen",
+    "url": "https://ca-live.adyen.com/ca/ca/config/api_credentials.shtml",
+    "category": "Payments",
+    "domain": "ca-live.adyen.com"
+  },
+  {
+    "name": "Authorize.net",
+    "url": "https://account.authorize.net/",
+    "category": "Payments",
+    "domain": "account.authorize.net"
+  },
+  {
+    "name": "Braintree",
+    "url": "https://sandbox.braintreegateway.com/merchants/",
+    "category": "Payments",
+    "domain": "sandbox.braintreegateway.com"
+  },
+  {
+    "name": "Cashfree",
+    "url": "https://merchant.cashfree.com/merchants/pg/developers/api-keys",
+    "category": "Payments",
+    "domain": "merchant.cashfree.com"
+  },
+  {
+    "name": "Checkout.com",
+    "url": "https://dashboard.checkout.com/",
+    "category": "Payments",
+    "domain": "dashboard.checkout.com"
+  },
+  {
+    "name": "Coinbase Commerce",
+    "url": "https://commerce.coinbase.com/dashboard/settings/api-keys",
+    "category": "Payments",
+    "domain": "commerce.coinbase.com"
+  },
+  {
+    "name": "Finix",
+    "url": "https://dashboard.finix.com/",
+    "category": "Payments",
+    "domain": "dashboard.finix.com"
+  },
+  {
+    "name": "Flutterwave",
+    "url": "https://app.flutterwave.com/dashboard/settings/apis",
+    "category": "Payments",
+    "domain": "app.flutterwave.com"
+  },
+  {
+    "name": "GoCardless",
+    "url": "https://manage.gocardless.com/developers/access-tokens",
+    "category": "Payments",
+    "domain": "manage.gocardless.com"
+  },
+  {
+    "name": "Lemon Squeezy",
+    "url": "https://app.lemonsqueezy.com/settings/api",
+    "category": "Payments",
+    "domain": "app.lemonsqueezy.com"
+  },
+  {
+    "name": "Mercado Pago",
+    "url": "https://www.mercadopago.com/developers/panel/app",
+    "category": "Payments",
+    "domain": "mercadopago.com"
+  },
+  {
+    "name": "Mollie",
+    "url": "https://my.mollie.com/dashboard/developers/api-keys",
+    "category": "Payments",
+    "domain": "my.mollie.com"
+  },
+  {
+    "name": "NMI",
+    "url": "https://secure.nmi.com/merchants/",
+    "category": "Payments",
+    "domain": "secure.nmi.com"
+  },
+  {
+    "name": "Paddle",
+    "url": "https://vendors.paddle.com/authentication",
+    "category": "Payments",
+    "domain": "vendors.paddle.com"
+  },
+  {
+    "name": "Pagar.me",
+    "url": "https://dashboard.pagar.me/",
+    "category": "Payments",
+    "domain": "dashboard.pagar.me"
+  },
+  {
+    "name": "PayPal",
+    "url": "https://developer.paypal.com/dashboard/applications",
+    "category": "Payments",
+    "domain": "developer.paypal.com"
+  },
+  {
+    "name": "Paystack",
+    "url": "https://dashboard.paystack.com/#/settings/developer",
+    "category": "Payments",
+    "domain": "dashboard.paystack.com"
+  },
+  {
+    "name": "PayU",
+    "url": "https://onboarding.payu.in/app/account/signin",
+    "category": "Payments",
+    "domain": "onboarding.payu.in"
+  },
+  {
+    "name": "Polar",
+    "url": "https://polar.sh/dashboard/{POLAR_ORG_SLUG}/settings",
+    "category": "Payments",
+    "domain": "polar.sh",
+    "variables": [
+      {
+        "key": "POLAR_ORG_SLUG",
+        "label": "Organization slug",
+        "placeholder": "your-org"
+      }
+    ]
+  },
+  {
+    "name": "Razorpay",
+    "url": "https://dashboard.razorpay.com/app/keys",
+    "category": "Payments",
+    "domain": "dashboard.razorpay.com"
+  },
+  {
+    "name": "Spreedly",
+    "url": "https://id.spreedly.com/",
+    "category": "Payments",
+    "domain": "id.spreedly.com"
+  },
+  {
+    "name": "Square",
+    "url": "https://developer.squareup.com/apps",
+    "category": "Payments",
+    "domain": "developer.squareup.com"
+  },
+  {
+    "name": "Stripe",
+    "url": "https://dashboard.stripe.com/apikeys",
+    "category": "Payments",
+    "domain": "dashboard.stripe.com"
+  },
+  {
+    "name": "Wise",
+    "url": "https://wise.com/your-account/integrations-and-tools/api-tokens",
+    "category": "Payments",
+    "domain": "wise.com"
+  },
+  {
+    "name": "Worldpay",
+    "url": "https://developer.worldpay.com/",
+    "category": "Payments",
+    "domain": "developer.worldpay.com"
+  },
+  {
+    "name": "Airwallex",
+    "url": "https://app.airwallex.com/",
+    "category": "Fintech",
+    "domain": "app.airwallex.com"
+  },
+  {
+    "name": "Alloy",
+    "url": "https://developer.alloy.com/public/docs/account-level-api-keys",
+    "category": "Fintech",
+    "domain": "developer.alloy.com"
+  },
+  {
+    "name": "Atomic",
+    "url": "https://console.atomicfi.com/",
+    "category": "Fintech",
+    "domain": "console.atomicfi.com"
+  },
+  {
+    "name": "Belvo",
+    "url": "https://dashboard.belvo.com/",
+    "category": "Fintech",
+    "domain": "dashboard.belvo.com"
+  },
+  {
+    "name": "Circle",
+    "url": "https://developers.circle.com/circle-mint/api-keys/",
+    "category": "Fintech",
+    "domain": "developers.circle.com"
+  },
+  {
+    "name": "Codat",
+    "url": "https://app.codat.io/",
+    "category": "Fintech",
+    "domain": "app.codat.io"
+  },
+  {
+    "name": "Coinbase Developer Platform",
+    "url": "https://portal.cdp.coinbase.com/access/api",
+    "category": "Fintech",
+    "domain": "portal.cdp.coinbase.com"
+  },
+  {
+    "name": "Column",
+    "url": "https://dashboard.column.com/",
+    "category": "Fintech",
+    "domain": "dashboard.column.com"
+  },
+  {
+    "name": "Currencycloud",
+    "url": "https://direct.currencycloud.com/",
+    "category": "Fintech",
+    "domain": "direct.currencycloud.com"
+  },
+  {
+    "name": "Dwolla",
+    "url": "https://dashboard.dwolla.com/applications",
+    "category": "Fintech",
+    "domain": "dashboard.dwolla.com"
+  },
+  {
+    "name": "Fidel API",
+    "url": "https://dashboard.fidel.uk/",
+    "category": "Fintech",
+    "domain": "dashboard.fidel.uk"
+  },
+  {
+    "name": "Finicity",
+    "url": "https://developer.mastercard.com/product/finicity-open-banking/",
+    "category": "Fintech",
+    "domain": "developer.mastercard.com"
+  },
+  {
+    "name": "Fireblocks",
+    "url": "https://console.fireblocks.io/",
+    "category": "Fintech",
+    "domain": "console.fireblocks.io"
+  },
+  {
+    "name": "Increase",
+    "url": "https://dashboard.increase.com/",
+    "category": "Fintech",
+    "domain": "dashboard.increase.com"
+  },
+  {
+    "name": "Lithic",
+    "url": "https://app.lithic.com/settings",
+    "category": "Fintech",
+    "domain": "app.lithic.com"
+  },
+  {
+    "name": "Mangopay",
+    "url": "https://dashboard.mangopay.com/",
+    "category": "Fintech",
+    "domain": "dashboard.mangopay.com"
+  },
+  {
+    "name": "Marqeta",
+    "url": "https://app.marqeta.com/",
+    "category": "Fintech",
+    "domain": "app.marqeta.com"
+  },
+  {
+    "name": "Method Financial",
+    "url": "https://app.methodfi.com/",
+    "category": "Fintech",
+    "domain": "app.methodfi.com"
+  },
+  {
+    "name": "Modern Treasury",
+    "url": "https://app.moderntreasury.com/",
+    "category": "Fintech",
+    "domain": "app.moderntreasury.com"
+  },
+  {
+    "name": "Moov",
+    "url": "https://dashboard.moov.io/",
+    "category": "Fintech",
+    "domain": "dashboard.moov.io"
+  },
+  {
+    "name": "MX",
+    "url": "https://dashboard.mx.com/",
+    "category": "Fintech",
+    "domain": "dashboard.mx.com"
+  },
+  {
+    "name": "Persona",
+    "url": "https://app.withpersona.com/dashboard/api-keys",
+    "category": "Fintech",
+    "domain": "app.withpersona.com"
+  },
+  {
+    "name": "Pinwheel",
+    "url": "https://dashboard.getpinwheel.com/",
+    "category": "Fintech",
+    "domain": "dashboard.getpinwheel.com"
+  },
+  {
+    "name": "Plaid",
+    "url": "https://dashboard.plaid.com/developers/keys",
+    "category": "Fintech",
+    "domain": "dashboard.plaid.com"
+  },
+  {
+    "name": "Rapyd",
+    "url": "https://dashboard.rapyd.net/",
+    "category": "Fintech",
+    "domain": "dashboard.rapyd.net"
+  },
+  {
+    "name": "Rutter",
+    "url": "https://docs.rutter.com/dashboard",
+    "category": "Fintech",
+    "domain": "docs.rutter.com"
+  },
+  {
+    "name": "Salt Edge",
+    "url": "https://www.saltedge.com/dashboard/sign_in",
+    "category": "Fintech",
+    "domain": "www.saltedge.com"
+  },
+  {
+    "name": "Sardine",
+    "url": "https://dashboard.sardine.ai/",
+    "category": "Fintech",
+    "domain": "dashboard.sardine.ai"
+  },
+  {
+    "name": "Synctera",
+    "url": "https://docs.synctera.com/docs/dev-setup",
+    "category": "Fintech",
+    "domain": "docs.synctera.com"
+  },
+  {
+    "name": "Teller",
+    "url": "https://teller.io/session",
+    "category": "Fintech",
+    "domain": "teller.io"
+  },
+  {
+    "name": "Treasury Prime",
+    "url": "https://developers.sandbox.treasuryprime.com/",
+    "category": "Fintech",
+    "domain": "developers.sandbox.treasuryprime.com"
+  },
+  {
+    "name": "TrueLayer",
+    "url": "https://console.truelayer.com/",
+    "category": "Fintech",
+    "domain": "console.truelayer.com"
+  },
+  {
+    "name": "Unit",
+    "url": "https://app.unit.co/",
+    "category": "Fintech",
+    "domain": "app.unit.co"
+  },
+  {
+    "name": "Yapily",
+    "url": "https://console.yapily.com/",
+    "category": "Fintech",
+    "domain": "console.yapily.com"
+  },
+  {
+    "name": "Yodlee",
+    "url": "https://developer.yodlee.com/",
+    "category": "Fintech",
+    "domain": "developer.yodlee.com"
+  },
+  {
+    "name": "Alpaca",
+    "url": "https://app.alpaca.markets/dashboard/overview",
+    "category": "Investing",
+    "domain": "app.alpaca.markets"
+  },
+  {
+    "name": "Alpha Vantage",
+    "url": "https://www.alphavantage.co/support/#api-key",
+    "category": "Investing",
+    "domain": "www.alphavantage.co"
+  },
+  {
+    "name": "CoinAPI",
+    "url": "https://console.coinapi.io/",
+    "category": "Investing",
+    "domain": "console.coinapi.io"
+  },
+  {
+    "name": "CoinGecko",
+    "url": "https://www.coingecko.com/en/developers/dashboard",
+    "category": "Investing",
+    "domain": "www.coingecko.com"
+  },
+  {
+    "name": "CoinMarketCap",
+    "url": "https://pro.coinmarketcap.com/account",
+    "category": "Investing",
+    "domain": "pro.coinmarketcap.com"
+  },
+  {
+    "name": "CryptoCompare",
+    "url": "https://www.cryptocompare.com/cryptopian/api-keys",
+    "category": "Investing",
+    "domain": "www.cryptocompare.com"
+  },
+  {
+    "name": "Databento",
+    "url": "https://databento.com/portal/keys",
+    "category": "Investing",
+    "domain": "databento.com"
+  },
+  {
+    "name": "EODHD",
+    "url": "https://eodhd.com/cp/dashboard",
+    "category": "Investing",
+    "domain": "eodhd.com"
+  },
+  {
+    "name": "Financial Modeling Prep",
+    "url": "https://site.financialmodelingprep.com/developer/docs/dashboard",
+    "category": "Investing",
+    "domain": "site.financialmodelingprep.com"
+  },
+  {
+    "name": "Finnhub",
+    "url": "https://finnhub.io/dashboard",
+    "category": "Investing",
+    "domain": "finnhub.io"
+  },
+  {
+    "name": "Intrinio",
+    "url": "https://docs.intrinio.com/tutorial/web_api",
+    "category": "Investing",
+    "domain": "docs.intrinio.com"
+  },
+  {
+    "name": "Marketstack",
+    "url": "https://marketstack.com/dashboard",
+    "category": "Investing",
+    "domain": "marketstack.com"
+  },
+  {
+    "name": "Massive",
+    "url": "https://massive.com/dashboard",
+    "category": "Investing",
+    "domain": "massive.com"
+  },
+  {
+    "name": "Nasdaq Data Link",
+    "url": "https://data.nasdaq.com/account/profile",
+    "category": "Investing",
+    "domain": "data.nasdaq.com"
+  },
+  {
+    "name": "Quiver Quantitative",
+    "url": "https://www.quiverquant.com/api-setup/",
+    "category": "Investing",
+    "domain": "www.quiverquant.com"
+  },
+  {
+    "name": "Tiingo",
+    "url": "https://api.tiingo.com/account/api/token",
+    "category": "Investing",
+    "domain": "api.tiingo.com"
+  },
+  {
+    "name": "Tradier",
+    "url": "https://web.tradier.com/user/api",
+    "category": "Investing",
+    "domain": "web.tradier.com"
+  },
+  {
+    "name": "Twelve Data",
+    "url": "https://twelvedata.com/account/api-keys",
+    "category": "Investing",
+    "domain": "twelvedata.com"
+  },
+  {
+    "name": "Fourthwall",
+    "url": "https://{shop_url}.fourthwall.com/admin/dashboard/settings/for-developers",
+    "category": "Commerce",
+    "domain": "fourthwall.com",
+    "variables": [
+      {
+        "key": "shop_url",
+        "label": "Shop URL",
+        "placeholder": "your-shop"
+      }
+    ]
+  },
+  {
+    "name": "Printful",
+    "url": "https://www.printful.com/dashboard/settings/api",
+    "category": "Commerce",
+    "domain": "www.printful.com"
+  },
+  {
+    "name": "Royal Mail",
+    "url": "https://developer.royalmail.net/start",
+    "category": "Commerce",
+    "domain": "developer.royalmail.net"
+  },
+  {
+    "name": "Shippo",
+    "url": "https://portal.goshippo.com/api-config/api?",
+    "category": "Commerce",
+    "domain": "portal.goshippo.com"
+  },
+  {
+    "name": "Shopify",
+    "url": "https://admin.shopify.com/",
+    "category": "Commerce",
+    "domain": "admin.shopify.com"
+  },
+  {
+    "name": "Ticket Tailor",
+    "url": "https://app.tickettailor.com/box-office/api",
+    "category": "Commerce",
+    "domain": "app.tickettailor.com"
+  },
+  {
+    "name": "Ably",
+    "url": "https://ably.com/accounts/any/apps",
+    "category": "Cloud",
+    "domain": "ably.com"
+  },
+  {
+    "name": "Agora",
+    "url": "https://console.agora.io/",
+    "category": "Cloud",
+    "domain": "console.agora.io"
+  },
+  {
+    "name": "AWS",
+    "url": "https://console.aws.amazon.com/iam/home#/security_credentials",
+    "category": "Cloud",
+    "domain": "console.aws.amazon.com"
+  },
+  {
+    "name": "Azure",
+    "url": "https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade",
+    "category": "Cloud",
+    "domain": "portal.azure.com"
+  },
+  {
+    "name": "Cloudflare",
+    "url": "https://dash.cloudflare.com/profile/api-tokens",
+    "category": "Cloud",
+    "domain": "dash.cloudflare.com"
+  },
+  {
+    "name": "CometChat",
+    "url": "https://app.cometchat.com/",
+    "category": "Cloud",
+    "domain": "app.cometchat.com"
+  },
+  {
+    "name": "Confluent Cloud",
+    "url": "https://confluent.cloud/settings/api-keys",
+    "category": "Cloud",
+    "domain": "confluent.cloud"
+  },
+  {
+    "name": "Daily",
+    "url": "https://dashboard.daily.co/developers",
+    "category": "Cloud",
+    "domain": "dashboard.daily.co"
+  },
+  {
+    "name": "DigitalOcean",
+    "url": "https://cloud.digitalocean.com/account/api/tokens",
+    "category": "Cloud",
+    "domain": "cloud.digitalocean.com"
+  },
+  {
+    "name": "GCP",
+    "url": "https://console.cloud.google.com/apis/credentials",
+    "category": "Cloud",
+    "domain": "console.cloud.google.com"
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://console.cloud.google.com/apis/credentials",
+    "category": "Cloud",
+    "domain": "console.cloud.google.com"
+  },
+  {
+    "name": "Mapbox",
+    "url": "https://account.mapbox.com/access-tokens/",
+    "category": "Cloud",
+    "domain": "account.mapbox.com"
+  },
+  {
+    "name": "Modal",
+    "url": "https://modal.com/settings/tokens",
+    "category": "Cloud",
+    "domain": "modal.com"
+  },
+  {
+    "name": "Pusher",
+    "url": "https://dashboard.pusher.com/apps",
+    "category": "Cloud",
+    "domain": "dashboard.pusher.com"
+  },
+  {
+    "name": "Sendbird",
+    "url": "https://dashboard.sendbird.com/",
+    "category": "Cloud",
+    "domain": "dashboard.sendbird.com"
+  },
+  {
+    "name": "Stream",
+    "url": "https://getstream.io/dashboard/",
+    "category": "Cloud",
+    "domain": "getstream.io"
+  },
+  {
+    "name": "Aiven",
+    "url": "https://console.aiven.io/profile/auth",
+    "category": "Database",
+    "domain": "console.aiven.io"
+  },
+  {
+    "name": "Algolia",
+    "url": "https://dashboard.algolia.com/account/api-keys",
+    "category": "Database",
+    "domain": "dashboard.algolia.com"
+  },
+  {
+    "name": "Chroma Cloud",
+    "url": "https://trychroma.com/",
+    "category": "Database",
+    "domain": "trychroma.com"
+  },
+  {
+    "name": "CockroachDB",
+    "url": "https://cockroachlabs.cloud/",
+    "category": "Database",
+    "domain": "cockroachlabs.cloud"
+  },
+  {
+    "name": "Convex",
+    "url": "https://dashboard.convex.dev/",
+    "category": "Database",
+    "domain": "dashboard.convex.dev"
+  },
+  {
+    "name": "Databricks",
+    "url": "https://accounts.cloud.databricks.com/",
+    "category": "Database",
+    "domain": "accounts.cloud.databricks.com"
+  },
+  {
+    "name": "Elastic Cloud",
+    "url": "https://cloud.elastic.co/account/keys",
+    "category": "Database",
+    "domain": "cloud.elastic.co"
+  },
+  {
+    "name": "Fauna",
+    "url": "https://docs.faunadb.org/fauna/current/learn/security/keys/",
+    "category": "Database",
+    "domain": "docs.faunadb.org"
+  },
+  {
+    "name": "Hasura",
+    "url": "https://cloud.hasura.io/",
+    "category": "Database",
+    "domain": "cloud.hasura.io"
+  },
+  {
+    "name": "InfluxDB Cloud",
+    "url": "https://cloud2.influxdata.com/",
+    "category": "Database",
+    "domain": "cloud2.influxdata.com"
+  },
+  {
+    "name": "Meilisearch Cloud",
+    "url": "https://cloud.meilisearch.com/",
+    "category": "Database",
+    "domain": "cloud.meilisearch.com"
+  },
+  {
+    "name": "MongoDB Atlas",
+    "url": "https://cloud.mongodb.com/",
+    "category": "Database",
+    "domain": "cloud.mongodb.com"
+  },
+  {
+    "name": "MotherDuck",
+    "url": "https://app.motherduck.com/settings/tokens",
+    "category": "Database",
+    "domain": "app.motherduck.com"
+  },
+  {
+    "name": "Neon",
+    "url": "https://console.neon.tech/",
+    "category": "Database",
+    "domain": "console.neon.tech"
+  },
+  {
+    "name": "Pinecone",
+    "url": "https://app.pinecone.io/",
+    "category": "Database",
+    "domain": "app.pinecone.io"
+  },
+  {
+    "name": "PlanetScale",
+    "url": "https://app.planscale.com/settings/passwords",
+    "category": "Database",
+    "domain": "app.planscale.com"
+  },
+  {
+    "name": "Qdrant Cloud",
+    "url": "https://cloud.qdrant.io/",
+    "category": "Database",
+    "domain": "cloud.qdrant.io"
+  },
+  {
+    "name": "Redis Cloud",
+    "url": "https://app.redislabs.com/",
+    "category": "Database",
+    "domain": "app.redislabs.com"
+  },
+  {
+    "name": "SingleStore",
+    "url": "https://portal.singlestore.com/",
+    "category": "Database",
+    "domain": "portal.singlestore.com"
+  },
+  {
+    "name": "Snowflake",
+    "url": "https://app.snowflake.com/",
+    "category": "Database",
+    "domain": "app.snowflake.com"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com/dashboard/project/_/settings/api",
+    "category": "Database",
+    "domain": "supabase.com"
+  },
+  {
+    "name": "Timescale",
+    "url": "https://console.cloud.timescale.com/profile/api-keys",
+    "category": "Database",
+    "domain": "console.cloud.timescale.com"
+  },
+  {
+    "name": "Tinybird",
+    "url": "https://app.tinybird.co/tokens",
+    "category": "Database",
+    "domain": "app.tinybird.co"
+  },
+  {
+    "name": "Turbopuffer",
+    "url": "https://turbopuffer.com/dashboard",
+    "category": "Database",
+    "domain": "turbopuffer.com"
+  },
+  {
+    "name": "Typesense Cloud",
+    "url": "https://cloud.typesense.org/",
+    "category": "Database",
+    "domain": "cloud.typesense.org"
+  },
+  {
+    "name": "Upstash",
+    "url": "https://console.upstash.com/account/api",
+    "category": "Database",
+    "domain": "console.upstash.com"
+  },
+  {
+    "name": "Vercel Postgres",
+    "url": "https://vercel.com/dashboard/stores",
+    "category": "Database",
+    "domain": "vercel.com"
+  },
+  {
+    "name": "Weaviate Cloud",
+    "url": "https://console.weaviate.cloud/",
+    "category": "Database",
+    "domain": "console.weaviate.cloud"
+  },
+  {
+    "name": "Xata",
+    "url": "https://app.xata.io/settings",
+    "category": "Database",
+    "domain": "app.xata.io"
+  },
+  {
+    "name": "Better Stack",
+    "url": "https://betterstack.com/docs/logs/api/getting-started/",
+    "category": "DevOps",
+    "domain": "betterstack.com"
+  },
+  {
+    "name": "Buildkite",
+    "url": "https://buildkite.com/user/api-access-tokens",
+    "category": "DevOps",
+    "domain": "buildkite.com"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://app.circleci.com/settings/user/tokens",
+    "category": "DevOps",
+    "domain": "app.circleci.com"
+  },
+  {
+    "name": "Codecov",
+    "url": "https://app.codecov.io/account/gh",
+    "category": "DevOps",
+    "domain": "app.codecov.io"
+  },
+  {
+    "name": "Docker Hub",
+    "url": "https://app.docker.com/settings/personal-access-tokens",
+    "category": "DevOps",
+    "domain": "app.docker.com"
+  },
+  {
+    "name": "Fly.io",
+    "url": "https://fly.io/dashboard",
+    "category": "DevOps",
+    "domain": "fly.io"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/settings/tokens",
+    "category": "DevOps",
+    "domain": "github.com"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com/-/user_settings/personal_access_tokens",
+    "category": "DevOps",
+    "domain": "gitlab.com"
+  },
+  {
+    "name": "Harness",
+    "url": "https://app.harness.io/ng/account/account-details/api-keys",
+    "category": "DevOps",
+    "domain": "app.harness.io"
+  },
+  {
+    "name": "Heroku",
+    "url": "https://dashboard.heroku.com/account",
+    "category": "DevOps",
+    "domain": "dashboard.heroku.com"
+  },
+  {
+    "name": "LaunchDarkly",
+    "url": "https://app.launchdarkly.com/settings/authorization",
+    "category": "DevOps",
+    "domain": "app.launchdarkly.com"
+  },
+  {
+    "name": "OpenCode",
+    "url": "https://opencode.ai/workspace/{workspace_id}/keys",
+    "category": "DevOps",
+    "domain": "opencode.ai",
+    "variables": [
+      {
+        "key": "workspace_id",
+        "label": "Workspace ID",
+        "placeholder": "workspace-id"
+      }
+    ]
+  },
+  {
+    "name": "OpenCode Zen",
+    "url": "https://opencode.ai/auth",
+    "category": "DevOps",
+    "domain": "opencode.ai"
+  },
+  {
+    "name": "Opsgenie",
+    "url": "https://app.opsgenie.com/settings/api-key-management",
+    "category": "DevOps",
+    "domain": "app.opsgenie.com"
+  },
+  {
+    "name": "PagerDuty",
+    "url": "https://support.pagerduty.com/main/docs/api-access-keys",
+    "category": "DevOps",
+    "domain": "support.pagerduty.com"
+  },
+  {
+    "name": "Prefect",
+    "url": "https://app.prefect.cloud/my/api-keys",
+    "category": "DevOps",
+    "domain": "app.prefect.cloud"
+  },
+  {
+    "name": "Railway",
+    "url": "https://railway.com/account/tokens",
+    "category": "DevOps",
+    "domain": "railway.com"
+  },
+  {
+    "name": "Render",
+    "url": "https://dashboard.render.com/u/settings#api-keys",
+    "category": "DevOps",
+    "domain": "dashboard.render.com"
+  },
+  {
+    "name": "Sentry",
+    "url": "https://sentry.io/settings/account/api/auth-tokens/",
+    "category": "DevOps",
+    "domain": "sentry.io"
+  },
+  {
+    "name": "SonarCloud",
+    "url": "https://sonarcloud.io/account/security/",
+    "category": "DevOps",
+    "domain": "sonarcloud.io"
+  },
+  {
+    "name": "Split",
+    "url": "https://app.split.io/org/admin/api-keys",
+    "category": "DevOps",
+    "domain": "app.split.io"
+  },
+  {
+    "name": "Travis CI",
+    "url": "https://app.travis-ci.com/account/preferences",
+    "category": "DevOps",
+    "domain": "app.travis-ci.com"
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com/account/tokens",
+    "category": "DevOps",
+    "domain": "vercel.com"
+  },
+  {
+    "name": "AWS SES",
+    "url": "https://console.aws.amazon.com/ses/home#/smtp",
+    "category": "Email",
+    "domain": "console.aws.amazon.com"
+  },
+  {
+    "name": "Bird",
+    "url": "https://app.bird.com/",
+    "category": "Email",
+    "domain": "app.bird.com"
+  },
+  {
+    "name": "Braze",
+    "url": "https://dashboard.braze.com/app_settings/api_settings/",
+    "category": "Email",
+    "domain": "dashboard.braze.com"
+  },
+  {
+    "name": "Brevo",
+    "url": "https://app.brevo.com/settings/keys/api",
+    "category": "Email",
+    "domain": "app.brevo.com"
+  },
+  {
+    "name": "Courier",
+    "url": "https://app.courier.com/settings/api-keys",
+    "category": "Email",
+    "domain": "app.courier.com"
+  },
+  {
+    "name": "Customer.io",
+    "url": "https://fly.customer.io/settings/api_credentials",
+    "category": "Email",
+    "domain": "fly.customer.io"
+  },
+  {
+    "name": "EmailOctopus",
+    "url": "https://emailoctopus.com/api-documentation",
+    "category": "Email",
+    "domain": "emailoctopus.com"
+  },
+  {
+    "name": "Klaviyo",
+    "url": "https://www.klaviyo.com/account#api-keys-tab",
+    "category": "Email",
+    "domain": "klaviyo.com"
+  },
+  {
+    "name": "Knock",
+    "url": "https://dashboard.knock.app/",
+    "category": "Email",
+    "domain": "dashboard.knock.app"
+  },
+  {
+    "name": "Mailchimp",
+    "url": "https://admin.mailchimp.com/account/api/",
+    "category": "Email",
+    "domain": "admin.mailchimp.com"
+  },
+  {
+    "name": "Mailgun",
+    "url": "https://app.mailgun.com/app/account/security/api_keys",
+    "category": "Email",
+    "domain": "app.mailgun.com"
+  },
+  {
+    "name": "Novu",
+    "url": "https://dashboard.novu.co/api-keys",
+    "category": "Email",
+    "domain": "dashboard.novu.co"
+  },
+  {
+    "name": "OneSignal",
+    "url": "https://dashboard.onesignal.com/apps",
+    "category": "Email",
+    "domain": "dashboard.onesignal.com"
+  },
+  {
+    "name": "Postmark",
+    "url": "https://account.postmarkapp.com/account/api_tokens",
+    "category": "Email",
+    "domain": "account.postmarkapp.com"
+  },
+  {
+    "name": "Resend",
+    "url": "https://resend.com/api-keys",
+    "category": "Email",
+    "domain": "resend.com"
+  },
+  {
+    "name": "SendGrid",
+    "url": "https://app.sendgrid.com/settings/api_keys",
+    "category": "Email",
+    "domain": "app.sendgrid.com"
+  },
+  {
+    "name": "Telnyx",
+    "url": "https://portal.telnyx.com/#/app/api-keys",
+    "category": "Email",
+    "domain": "portal.telnyx.com"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://1console.twilio.com/account/{ACCOUNT_ID}/settings/us1/api-keys/list",
+    "category": "Email",
+    "domain": "console.twilio.com",
+    "variables": [
+      {
+        "key": "ACCOUNT_ID",
+        "label": "Account ID",
+        "placeholder": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    ]
+  },
+  {
+    "name": "Vonage",
+    "url": "https://dashboard.nexmo.com/settings",
+    "category": "Email",
+    "domain": "dashboard.nexmo.com"
+  },
+  {
+    "name": "Auth0",
+    "url": "https://manage.auth0.com/",
+    "category": "Auth",
+    "domain": "manage.auth0.com"
+  },
+  {
+    "name": "Clerk",
+    "url": "https://dashboard.clerk.com/last-active?path=api-keys",
+    "category": "Auth",
+    "domain": "dashboard.clerk.com"
+  },
+  {
+    "name": "Firebase Auth",
+    "url": "https://console.firebase.google.com/",
+    "category": "Auth",
+    "domain": "console.firebase.google.com"
+  },
+  {
+    "name": "Supabase Auth",
+    "url": "https://supabase.com/dashboard/project/_/auth/providers",
+    "category": "Auth",
+    "domain": "supabase.com"
+  },
+  {
+    "name": "WorkOS",
+    "url": "https://dashboard.workos.com/api-keys",
+    "category": "Auth",
+    "domain": "dashboard.workos.com"
+  },
+  {
+    "name": "Axiom",
+    "url": "https://app.axiom.co/settings/api-tokens",
+    "category": "Analytics",
+    "domain": "app.axiom.co"
+  },
+  {
+    "name": "Bugsnag",
+    "url": "https://app.bugsnag.com/user/settings",
+    "category": "Analytics",
+    "domain": "app.bugsnag.com"
+  },
+  {
+    "name": "CB Insights",
+    "url": "https://www.cbinsights.com/research-api",
+    "category": "Analytics",
+    "domain": "www.cbinsights.com"
+  },
+  {
+    "name": "Coralogix",
+    "url": "https://coralogix.com/docs/user-guides/account-management/api-keys/api-keys/",
+    "category": "Analytics",
+    "domain": "coralogix.com"
+  },
+  {
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com/analytics/web/",
+    "category": "Analytics",
+    "domain": "analytics.google.com"
+  },
+  {
+    "name": "Grafana Cloud",
+    "url": "https://grafana.com/docs/grafana/latest/administration/service-accounts/",
+    "category": "Analytics",
+    "domain": "grafana.com"
+  },
+  {
+    "name": "Honeycomb",
+    "url": "https://ui.honeycomb.io/account",
+    "category": "Analytics",
+    "domain": "ui.honeycomb.io"
+  },
+  {
+    "name": "Mixpanel",
+    "url": "https://mixpanel.com/project/settings",
+    "category": "Analytics",
+    "domain": "mixpanel.com"
+  },
+  {
+    "name": "Plausible",
+    "url": "https://plausible.io/settings",
+    "category": "Analytics",
+    "domain": "plausible.io"
+  },
+  {
+    "name": "PostHog",
+    "url": "https://app.posthog.com/settings/user-api-keys",
+    "category": "Analytics",
+    "domain": "app.posthog.com"
+  },
+  {
+    "name": "Raygun",
+    "url": "https://app.raygun.com/user",
+    "category": "Analytics",
+    "domain": "app.raygun.com"
+  },
+  {
+    "name": "Rollbar",
+    "url": "https://rollbar.com/settings/accounts/access_tokens/",
+    "category": "Analytics",
+    "domain": "rollbar.com"
+  },
+  {
+    "name": "Statsig",
+    "url": "https://console.statsig.com/api_keys",
+    "category": "Analytics",
+    "domain": "console.statsig.com"
+  },
+  {
+    "name": "TrustMRR",
+    "url": "https://trustmrr.com/dashboard-dev",
+    "category": "Analytics",
+    "domain": "trustmrr.com"
+  },
+  {
+    "name": "AWS S3",
+    "url": "https://console.aws.amazon.com/s3/home",
+    "category": "Storage",
+    "domain": "console.aws.amazon.com"
+  },
+  {
+    "name": "Backblaze",
+    "url": "https://secure.backblaze.com/app_keys.htm",
+    "category": "Storage",
+    "domain": "secure.backblaze.com"
+  },
+  {
+    "name": "Bytescale",
+    "url": "https://www.bytescale.com/dashboard/security/api_keys",
+    "category": "Storage",
+    "domain": "www.bytescale.com"
+  },
+  {
+    "name": "Cloudflare R2",
+    "url": "https://dash.cloudflare.com/?to=/:account/r2",
+    "category": "Storage",
+    "domain": "dash.cloudflare.com"
+  },
+  {
+    "name": "Firebase Storage",
+    "url": "https://console.firebase.google.com/project/_/storage",
+    "category": "Storage",
+    "domain": "console.firebase.google.com"
+  },
+  {
+    "name": "Advent of Code",
+    "url": "https://adventofcode.com",
+    "category": "Productivity",
+    "domain": "adventofcode.com"
+  },
+  {
+    "name": "Airtable",
+    "url": "https://airtable.com/create/tokens",
+    "category": "Productivity",
+    "domain": "airtable.com"
+  },
+  {
+    "name": "Apollo",
+    "url": "https://developer.apollo.io/keys#/keys",
+    "category": "Productivity",
+    "domain": "developer.apollo.io"
+  },
+  {
+    "name": "Asana",
+    "url": "https://app.asana.com/0/my-apps",
+    "category": "Productivity",
+    "domain": "app.asana.com"
+  },
+  {
+    "name": "Attio",
+    "url": "https://app.attio.com/{organisation-slug}/settings/developers/access-tokens",
+    "category": "Productivity",
+    "domain": "app.attio.com",
+    "variables": [
+      {
+        "key": "organisation-slug",
+        "label": "Organisation slug",
+        "placeholder": "workspace-slug"
+      }
+    ]
+  },
+  {
+    "name": "Basin",
+    "url": "https://usebasin.com/app/api_settings",
+    "category": "Productivity",
+    "domain": "usebasin.com"
+  },
+  {
+    "name": "Clay",
+    "url": "https://app.clay.com/workspaces/{workspace-id}/settings/account",
+    "category": "Productivity",
+    "domain": "app.clay.com",
+    "variables": [
+      {
+        "key": "workspace-id",
+        "label": "Workspace ID",
+        "placeholder": "workspace-id"
+      }
+    ]
+  },
+  {
+    "name": "Cognism",
+    "url": "https://app.cognism.com/",
+    "category": "Productivity",
+    "domain": "app.cognism.com"
+  },
+  {
+    "name": "Deel",
+    "url": "https://developer.deel.com/api/authentication",
+    "category": "Productivity",
+    "domain": "developer.deel.com"
+  },
+  {
+    "name": "Dub",
+    "url": "https://app.dub.co/settings/tokens",
+    "category": "Productivity",
+    "domain": "app.dub.co"
+  },
+  {
+    "name": "Featurebase",
+    "url": "https://featurebase.app/dashboard/settings/integrations/api",
+    "category": "Productivity",
+    "domain": "featurebase.app"
+  },
+  {
+    "name": "Figma",
+    "url": "https://www.figma.com/settings",
+    "category": "Productivity",
+    "domain": "www.figma.com"
+  },
+  {
+    "name": "Fillout",
+    "url": "https://www.fillout.com/help/fillout-rest-api",
+    "category": "Productivity",
+    "domain": "www.fillout.com"
+  },
+  {
+    "name": "Gojiberry",
+    "url": "https://app.gojiberry.ai",
+    "category": "Productivity",
+    "domain": "app.gojiberry.ai"
+  },
+  {
+    "name": "Inkle",
+    "url": "https://www.inkle.ai",
+    "category": "Productivity",
+    "domain": "www.inkle.ai"
+  },
+  {
+    "name": "Kaspr",
+    "url": "https://app.kaspr.io/settings/api",
+    "category": "Productivity",
+    "domain": "app.kaspr.io"
+  },
+  {
+    "name": "LeadIQ",
+    "url": "https://account.leadiq.com/app/settings/api-keys",
+    "category": "Productivity",
+    "domain": "account.leadiq.com"
+  },
+  {
+    "name": "Linear",
+    "url": "https://linear.app/settings/account/security",
+    "category": "Productivity",
+    "domain": "linear.app"
+  },
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/developers/apps",
+    "category": "Productivity",
+    "domain": "www.linkedin.com"
+  },
+  {
+    "name": "Luma",
+    "url": "https://luma.com/calendar/manage/{calendar-id}/settings/developer",
+    "category": "Productivity",
+    "domain": "luma.com",
+    "variables": [
+      {
+        "key": "calendar-id",
+        "label": "Calendar ID",
+        "placeholder": "cal-..."
+      }
+    ]
+  },
+  {
+    "name": "Lusha",
+    "url": "https://dashboard.lusha.com/api/manage-api-keys",
+    "category": "Productivity",
+    "domain": "dashboard.lusha.com"
+  },
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so/profile/integrations",
+    "category": "Productivity",
+    "domain": "www.notion.so"
+  },
+  {
+    "name": "Nylas",
+    "url": "https://dashboard-v3.nylas.com/",
+    "category": "Productivity",
+    "domain": "dashboard-v3.nylas.com"
+  },
+  {
+    "name": "People Data Labs",
+    "url": "https://dashboard.peopledatalabs.com/api-keys",
+    "category": "Productivity",
+    "domain": "dashboard.peopledatalabs.com"
+  },
+  {
+    "name": "Plane",
+    "url": "https://app.plane.so/{slug}/settings/access-tokens/",
+    "category": "Productivity",
+    "domain": "app.plane.so",
+    "variables": [
+      {
+        "key": "slug",
+        "label": "Workspace Slug",
+        "placeholder": "acme"
+      }
+    ]
+  },
+  {
+    "name": "Quo",
+    "url": "https://my.quo.com/settings/api",
+    "category": "Productivity",
+    "domain": "my.quo.com"
+  },
+  {
+    "name": "Shortcut",
+    "url": "https://app.shortcut.com/settings/account/api-tokens",
+    "category": "Productivity",
+    "domain": "app.shortcut.com"
+  },
+  {
+    "name": "Slack",
+    "url": "https://api.slack.com/apps",
+    "category": "Productivity",
+    "domain": "api.slack.com"
+  },
+  {
+    "name": "Tally",
+    "url": "https://tally.so/settings/api-keys",
+    "category": "Productivity",
+    "domain": "tally.so"
+  },
+  {
+    "name": "Typeform",
+    "url": "https://admin.typeform.com/user/tokens",
+    "category": "Productivity",
+    "domain": "admin.typeform.com"
+  },
+  {
+    "name": "WHOOP",
+    "url": "https://developer-dashboard.whoop.com/",
+    "category": "Productivity",
+    "domain": "developer-dashboard.whoop.com"
+  },
+  {
+    "name": "Wiza",
+    "url": "https://wiza.co/app/settings/api",
+    "category": "Productivity",
+    "domain": "wiza.co"
+  },
+  {
+    "name": "Companies House",
+    "url": "https://developer.company-information.service.gov.uk/manage-applications",
+    "category": "Government",
+    "domain": "developer.company-information.service.gov.uk"
+  },
+  {
+    "name": "Post Bridge",
+    "url": "https://www.post-bridge.com/dashboard/api-keys",
+    "category": "Media",
+    "domain": "www.post-bridge.com"
+  },
+  {
+    "name": "remove.bg",
+    "url": "https://www.remove.bg/dashboard#api-key",
+    "category": "Media",
+    "domain": "www.remove.bg"
+  }
+]

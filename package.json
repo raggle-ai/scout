@@ -1,0 +1,16 @@
+{
+  "name": "raggle-scout",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs",
+    "deploy": "npm run build && wrangler deploy",
+    "web": "npm run build && npm --prefix web run dev",
+    "web:build": "npm run build && npm --prefix web run build",
+    "web:preview": "npm --prefix web run preview"
+  },
+  "devDependencies": {
+    "wrangler": "^4.97.0"
+  }
+}

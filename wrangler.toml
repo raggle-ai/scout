@@ -1,0 +1,9 @@
+name = "scout"
+main = "src/worker.ts"
+compatibility_date = "2026-05-21"
+account_id = "22ea9368dc26bd73155f242c2bd47dfc"
+workers_dev = true
+
+routes = [
+  { pattern = "scout.raggle.co", custom_domain = true }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "Cursor",
+  "slug": "cursor",
+  "category": "AI Client",
+  "homepage": "https://cursor.com",
+  "platforms": ["macOS", "Windows", "Linux"],
+  "appNames": ["Cursor.app"],
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": false,
+    "canStartNewProjectSession": false
+  },
+  "launchers": [
+    {
+      "id": "open-folder-command",
+      "label": "Open folder",
+      "kind": "command",
+      "intent": "open-folder",
+      "urlTemplate": "cursor {absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Documentation",
+      "url": "https://cursor.com/docs"
+    }
+  ]
+}

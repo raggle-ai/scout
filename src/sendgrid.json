@@ -1,0 +1,6 @@
+{
+  "name": "SendGrid",
+  "url": "https://app.sendgrid.com/settings/api_keys",
+  "category": "Email",
+  "domain": "app.sendgrid.com"
+}

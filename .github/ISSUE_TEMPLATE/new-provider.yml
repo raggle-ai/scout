@@ -1,0 +1,92 @@
+name: Add API key provider
+description: Suggest a new credential provider link for Raggle Scout.
+title: "Add provider: "
+labels:
+  - provider
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest a new `src/*.json` provider record.
+
+        Do not include API keys, tokens, secrets, private account IDs, or personal credential values.
+
+  - type: input
+    id: name
+    attributes:
+      label: Provider name
+      description: Human-readable service name.
+      placeholder: Stripe
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Provider slug
+      description: Kebab-case filename for `src/<slug>.json`.
+      placeholder: stripe
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: API key page URL
+      description: Link to the page where users create or manage API keys.
+      placeholder: https://dashboard.example.com/api-keys
+    validations:
+      required: true
+
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: Hostname from the URL.
+      placeholder: dashboard.example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Pick the closest existing provider category.
+      options:
+        - AI/ML
+        - Payments
+        - Fintech
+        - Investing
+        - Commerce
+        - Cloud
+        - Database
+        - DevOps
+        - Email
+        - Auth
+        - Analytics
+        - Storage
+        - Productivity
+        - Government
+        - Media
+    validations:
+      required: true
+
+  - type: textarea
+    id: variables
+    attributes:
+      label: Placeholder variables
+      description: If the URL uses placeholders like `{workspace-id}`, list each key, label, and safe example.
+      placeholder: |
+        key: workspace-id
+        label: Workspace ID
+        example: workspace-id
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include secrets, tokens, API keys, or private account-specific values.
+          required: true

@@ -1,0 +1,13 @@
+{
+  "name": "OpenCode",
+  "url": "https://opencode.ai/workspace/{workspace_id}/keys",
+  "category": "DevOps",
+  "domain": "opencode.ai",
+  "variables": [
+    {
+      "key": "workspace_id",
+      "label": "Workspace ID",
+      "placeholder": "workspace-id"
+    }
+  ]
+}

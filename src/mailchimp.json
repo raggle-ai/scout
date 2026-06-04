@@ -1,0 +1,6 @@
+{
+  "name": "Mailchimp",
+  "url": "https://admin.mailchimp.com/account/api/",
+  "category": "Email",
+  "domain": "admin.mailchimp.com"
+}

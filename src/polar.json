@@ -1,0 +1,13 @@
+{
+  "name": "Polar",
+  "url": "https://polar.sh/dashboard/{POLAR_ORG_SLUG}/settings",
+  "category": "Payments",
+  "domain": "polar.sh",
+  "variables": [
+    {
+      "key": "POLAR_ORG_SLUG",
+      "label": "Organization slug",
+      "placeholder": "your-org"
+    }
+  ]
+}
