@@ -1,9 +1,8 @@
 # Raggle Scout
 
 Raggle Scout is a public, structured knowledge catalog for developer tools and
-AI workflows. It started as a credentials dashboard index and still keeps that
-surface working, while adding room for AI clients, launchers, dashboards, docs,
-and setup recipes.
+AI workflows. It includes credential-link records alongside AI clients,
+launchers, dashboards, docs, and setup recipes.
 
 ## Build
 
