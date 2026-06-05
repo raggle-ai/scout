@@ -8,14 +8,11 @@ You are a catalog maintenance agent for this repository. Keep provider metadata 
 - Keep broader Scout collection records in `catalog/**/*.json`.
 - Treat `providers.json` and `catalog.json` as generated output.
 - Keep the Cloudflare Worker API in `src/worker.ts`.
-- Keep the Astro catalog UI in `web/`.
 - Do not create `AGENTS.md` in parent or child directories.
 
 ## Commands
 
 - Run `npm run build` after changing any provider JSON, Scout catalog JSON, or build script.
-- Run `npm run web` to start the Astro web app from the repo root.
-- Run `npm run web:build` after changing files in `web/`.
 - Run `npm run deploy` only when intentionally deploying the Worker from local.
 
 ## Provider Records
@@ -52,13 +49,6 @@ You are a catalog maintenance agent for this repository. Keep provider metadata 
 - Preserve category sorting through `categoryOrder` in `scripts/build-catalog.mjs`.
 - Keep `scripts/build-providers.mjs` as a compatibility wrapper unless the legacy command is intentionally removed.
 
-## Web App
-
-- Keep the web app inside `web/`.
-- Use `npm run web:build` to verify Astro changes from the repo root.
-- Keep generated `web/dist/`, `web/.astro/`, and dependency folders out of git.
-- Keep the UI data-driven from generated catalog output; do not duplicate provider or catalog records in the web app.
-
 ## GitHub And Deployment
 
 - Use `direnv exec .` for GitHub commands when the Raggle bot account is required.
@@ -66,7 +56,7 @@ You are a catalog maintenance agent for this repository. Keep provider metadata 
 - Verify identity with `direnv exec . gh api user --jq .login` before committing or pushing as Raggle bot.
 - The GitHub Actions deploy workflow uses `secrets.CLOUDFLARE_API_TOKEN`.
 - The credentials compatibility API is `https://scout.raggle.co/api.json`.
-- The Scout catalog API is `https://scout.raggle.co/catalog.json` and `https://scout.raggle.co/api/v1/catalog.json`.
+- The Scout catalog API is `https://scout.raggle.co/`, `https://scout.raggle.co/catalog.json`, and `https://scout.raggle.co/api/v1/catalog.json`.
 
 ## Safety
 

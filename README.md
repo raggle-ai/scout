@@ -26,6 +26,7 @@ https://scout.raggle.co/api.json
 It also serves the broader Scout catalog at:
 
 ```text
+https://scout.raggle.co/
 https://scout.raggle.co/catalog.json
 https://scout.raggle.co/api/v1/catalog.json
 ```

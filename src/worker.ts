@@ -14,7 +14,7 @@ export default {
       return Response.json(providers, { headers: jsonHeaders });
     }
 
-    if (url.pathname === "/catalog.json" || url.pathname === "/api/v1/catalog.json") {
+    if (url.pathname === "/" || url.pathname === "/catalog.json" || url.pathname === "/api/v1/catalog.json") {
       return Response.json(catalog, { headers: jsonHeaders });
     }
 
