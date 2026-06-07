@@ -1,109 +1,158 @@
-# Raggle Scout
+# Scout
 
-Raggle Scout is a public, structured knowledge catalog for developer tools and
-AI workflows. It includes credential-link records alongside AI clients,
-launchers, dashboards, docs, and setup recipes.
+Scout is an open-source directory of where developers go to create API keys,
+OAuth apps, access tokens, webhook secrets, service accounts, and other setup
+credentials.
 
-## Build
+The useful work in this repo is the data. If you know where a provider keeps
+its API key page, OAuth app console, webhook signing secret, or service account
+setup flow, add or improve that provider record. You do not need to run a web
+app or understand the deployment path to contribute.
 
-```bash
-npm run build
-```
+## What To Add
 
-This generates:
+Add links that help someone get from "I need credentials for this provider" to
+the correct settings page quickly:
 
-- `providers.json` from `src/*.json` for the legacy credentials API.
-- `catalog.json` from `src/*.json` and `catalog/**/*.json` for the Scout API.
+- API key pages
+- OAuth app registration pages
+- Personal access token pages
+- Webhook secret or signing-key pages
+- Service account setup pages
+- Developer dashboard pages
+- Official docs when a direct dashboard URL is not stable
 
-## Public JSON
+Use public, generic URLs. Do not add real API keys, tokens, account IDs,
+private workspace names, personal credentials, or customer-specific links.
 
-The Cloudflare Worker serves the credentials compatibility endpoint at:
+## Provider Records
 
-```text
-https://scout.raggle.co/api.json
-```
-
-It also serves the broader Scout catalog at:
-
-```text
-https://scout.raggle.co/
-https://scout.raggle.co/catalog.json
-https://scout.raggle.co/api/v1/catalog.json
-```
-
-Deploy with:
-
-```bash
-npm run deploy
-```
-
-The GitHub Actions deploy workflow expects a `CLOUDFLARE_API_TOKEN` repository
-secret with Workers deploy permissions. DNS for `scout.raggle.co` must exist in
-Cloudflare and be proxied to the Worker custom domain.
-
-## Adding Credential Links
-
-Create a credential file:
+Credential provider records live in `src/*.json`. Add one provider per file,
+using a kebab-case filename:
 
 ```text
 src/provider-name.json
 ```
 
+Use this basic shape:
+
 ```json
 {
   "name": "Provider Name",
-  "url": "https://dashboard.url/api-keys",
+  "url": "https://dashboard.example.com/api-keys",
   "category": "Category",
-  "domain": "dashboard.url"
+  "domain": "dashboard.example.com"
 }
 ```
 
-The filename becomes the credential `slug` in `catalog.json`.
+The filename becomes the provider `slug` in `catalog.json`.
 
-## Adding AI Clients
-
-Create an AI client file:
-
-```text
-catalog/ai-clients/client-name.json
-```
+If the provider has more than one useful credential surface, keep `url` pointed
+at the best default and add `credentialUrls`:
 
 ```json
 {
-  "name": "Client Name",
-  "slug": "client-name",
-  "category": "AI Client",
-  "homepage": "https://client.example",
-  "platforms": ["macOS", "Windows", "Linux"],
-  "launchers": [
+  "name": "Provider Name",
+  "url": "https://dashboard.example.com/oauth/apps",
+  "category": "Category",
+  "domain": "dashboard.example.com",
+  "credentialUrls": [
     {
-      "label": "Open project",
-      "kind": "command",
-      "urlTemplate": "client {projectPath}",
-      "variables": [
-        {
-          "key": "projectPath",
-          "label": "Project folder",
-          "placeholder": "/Users/you/project"
-        }
-      ]
-    }
-  ],
-  "docs": [
+      "label": "OAuth apps",
+      "kind": "oauth-app",
+      "url": "https://dashboard.example.com/oauth/apps",
+      "domain": "dashboard.example.com"
+    },
     {
-      "label": "Documentation",
-      "url": "https://client.example/docs"
+      "label": "API keys",
+      "kind": "api-key",
+      "url": "https://dashboard.example.com/api-keys",
+      "domain": "dashboard.example.com"
     }
   ]
 }
 ```
 
-Validation checks stable names and slugs, kebab-case filenames, duplicate names
-or slugs within a collection, URL/template placeholder variables, generic
-non-secret placeholders, and unknown fields.
+Supported `credentialUrls.kind` values include:
 
-AI client records can also include `capabilities`, `appNames`, `bundleId`,
-`deeplinks`, and launcher `intent` metadata. Consumers such as Raycast should
-read URL-scheme templates from `deeplinks` directly, use `launchers` for command
-or web fallbacks, and encode variables according to each variable's `encoding`
-value before replacing placeholders in `urlTemplate`.
+- `api-key`
+- `oauth-app`
+- `access-token`
+- `webhook-secret`
+- `service-account`
+- `dashboard`
+- `docs`
+
+## Placeholders
+
+If a URL needs a variable part, use a clear placeholder and add a matching
+`variables` entry:
+
+```json
+{
+  "name": "Provider Name",
+  "url": "https://dashboard.example.com/{workspaceSlug}/api-keys",
+  "category": "Category",
+  "domain": "dashboard.example.com",
+  "variables": [
+    {
+      "key": "workspaceSlug",
+      "label": "Workspace slug",
+      "placeholder": "your-workspace"
+    }
+  ]
+}
+```
+
+Placeholder keys must match exactly. Use examples such as `your-org`,
+`workspace-id`, or `project-id`, not real private values.
+
+## Validate Changes
+
+After adding or changing provider data, run:
+
+```bash
+npm run build
+```
+
+This validates the source records and regenerates:
+
+- `providers.json`, the legacy compatibility list of provider credential URLs.
+- `catalog.json`, the richer Scout catalog with slugs and credential URL
+  variants.
+
+Check the generated diff before opening a pull request.
+
+## Public JSON
+
+The data is published as JSON:
+
+```bash
+curl https://scout.raggle.co/
+curl https://scout.raggle.co/catalog.json
+curl https://scout.raggle.co/api/v1/catalog.json
+```
+
+The legacy provider-list endpoint is:
+
+```bash
+curl https://scout.raggle.co/api.json
+```
+
+## AI Client Records
+
+Scout can also track AI-client launchers in `catalog/ai-clients/*.json`, but
+provider credential data is the primary contribution path. Add AI-client records
+only when you are capturing a stable launcher, deep link, documentation URL, or
+setup flow.
+
+## Pull Requests
+
+1. Add or update the source JSON record.
+2. Run `npm run build`.
+3. Include the source record and generated JSON changes.
+4. Open a pull request describing which provider credential or setup surface you
+   added.
+
+Do not include secrets, private tokens, personal account identifiers, or
+customer-specific URLs.
