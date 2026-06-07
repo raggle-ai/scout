@@ -1,10 +1,10 @@
 {
-  "name": "Cursor",
-  "slug": "cursor",
-  "category": "AI Client",
-  "homepage": "https://cursor.com",
+  "name": "Typora",
+  "slug": "typora",
+  "category": "Application",
+  "homepage": "https://typora.io/",
   "platforms": ["macOS", "Windows", "Linux"],
-  "appNames": ["Cursor.app"],
+  "appNames": ["Typora.app"],
   "capabilities": {
     "opensProjectFolder": true,
     "canResumeProjectSession": false,
@@ -16,7 +16,7 @@
       "label": "Open folder",
       "kind": "command",
       "intent": "open-folder",
-      "urlTemplate": "cursor {absolutePath}",
+      "urlTemplate": "open -a Typora {absolutePath}",
       "variables": [
         {
           "key": "absolutePath",
@@ -30,8 +30,8 @@
   ],
   "docs": [
     {
-      "label": "Documentation",
-      "url": "https://cursor.com/docs"
+      "label": "Support",
+      "url": "https://support.typora.io/"
     }
   ]
 }

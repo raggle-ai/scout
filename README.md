@@ -139,12 +139,12 @@ The legacy provider-list endpoint is:
 curl https://scout.raggle.co/api.json
 ```
 
-## AI Client Records
+## Application Records
 
-Scout can also track AI-client launchers in `catalog/ai-clients/*.json`, but
-provider credential data is the primary contribution path. Add AI-client records
-only when you are capturing a stable launcher, deep link, documentation URL, or
-setup flow.
+Scout can also track applications that open local folders or projects in
+`catalog/applications/*.json`, but provider credential data is the primary
+contribution path. Add application records only when you are capturing a stable
+launcher, deep link, documentation URL, or setup flow.
 
 ## Pull Requests
 

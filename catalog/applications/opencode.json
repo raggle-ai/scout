@@ -1,7 +1,7 @@
 {
   "name": "OpenCode",
   "slug": "opencode",
-  "category": "AI Client",
+  "category": "Application",
   "homepage": "https://opencode.ai/",
   "platforms": ["macOS", "Windows", "Linux"],
   "appNames": ["OpenCode.app", "OpenCode Beta.app"],

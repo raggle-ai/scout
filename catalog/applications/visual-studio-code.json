@@ -1,11 +1,11 @@
 {
-  "name": "T3 Code",
-  "slug": "t3-code",
-  "category": "AI Client",
-  "homepage": "https://t3.codes/",
+  "name": "Visual Studio Code",
+  "slug": "visual-studio-code",
+  "category": "Application",
+  "homepage": "https://code.visualstudio.com/",
   "platforms": ["macOS", "Windows", "Linux"],
-  "appNames": ["T3 Code.app", "T3 Code (Alpha).app"],
-  "bundleId": "com.t3tools.t3code",
+  "appNames": ["Visual Studio Code.app"],
+  "bundleId": "com.microsoft.VSCode",
   "capabilities": {
     "opensProjectFolder": true,
     "canResumeProjectSession": false,
@@ -13,11 +13,11 @@
   },
   "launchers": [
     {
-      "id": "open-project-command",
-      "label": "Open project from terminal",
+      "id": "open-folder-command",
+      "label": "Open folder",
       "kind": "command",
-      "intent": "open-project",
-      "urlTemplate": "cd {absolutePath} && t3 --auto-bootstrap-project-from-cwd",
+      "intent": "open-folder",
+      "urlTemplate": "code {absolutePath}",
       "variables": [
         {
           "key": "absolutePath",
@@ -31,8 +31,8 @@
   ],
   "docs": [
     {
-      "label": "Documentation",
-      "url": "https://pingdotgg-t3code.mintlify.app/"
+      "label": "Command line",
+      "url": "https://code.visualstudio.com/docs/editor/command-line"
     }
   ]
 }

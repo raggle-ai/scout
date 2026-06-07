@@ -35,7 +35,7 @@ You are a catalog maintenance agent for this repository. Keep provider metadata 
 
 ## Scout Collections
 
-- Add AI client records under `catalog/ai-clients/`.
+- Add application records for folder/project launchers under `catalog/applications/`.
 - Keep collection filenames in kebab-case and aligned with each record `slug`.
 - Use generic non-secret placeholders such as `/Users/you/project`, `your-org`, or `workspace-id`.
 - URL templates with `{placeholder}` values must include matching `variables`.

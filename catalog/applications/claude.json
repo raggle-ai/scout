@@ -1,7 +1,7 @@
 {
   "name": "Claude Code",
   "slug": "claude",
-  "category": "AI Client",
+  "category": "Application",
   "homepage": "https://www.anthropic.com/claude-code",
   "platforms": ["macOS", "Windows", "Linux"],
   "appNames": ["Claude.app"],

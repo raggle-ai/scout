@@ -1,7 +1,7 @@
 {
   "name": "Codex",
   "slug": "codex",
-  "category": "AI Client",
+  "category": "Application",
   "homepage": "https://openai.com/codex/",
   "platforms": ["macOS", "Windows", "Linux", "Web"],
   "appNames": ["Codex.app"],

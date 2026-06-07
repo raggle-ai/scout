@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Raggle Scout AI Client",
+  "title": "Raggle Scout Application",
   "type": "object",
   "additionalProperties": false,
   "required": ["name", "slug", "category", "homepage", "platforms"],
   "properties": {
     "name": { "type": "string", "minLength": 1 },
     "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-    "category": { "const": "AI Client" },
+    "category": { "const": "Application" },
     "homepage": { "type": "string", "format": "uri" },
     "platforms": {
       "type": "array",

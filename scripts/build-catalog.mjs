@@ -4,7 +4,7 @@ import process from "node:process";
 
 const rootDir = process.cwd();
 const credentialsDir = path.join(rootDir, "src");
-const aiClientsDir = path.join(rootDir, "catalog", "ai-clients");
+const applicationsDir = path.join(rootDir, "catalog", "applications");
 const providersOutputPath = path.join(rootDir, "providers.json");
 const catalogOutputPath = path.join(rootDir, "catalog.json");
 
@@ -31,10 +31,10 @@ const categoryOrder = [
 
 async function main() {
   const credentials = await readCredentials();
-  const aiClients = await readCollection(aiClientsDir, validateAiClient);
+  const applications = await readCollection(applicationsDir, validateApplication);
 
   const sortedCredentials = credentials.sort(compareCredentials);
-  const sortedAiClients = aiClients.sort(compareByName);
+  const sortedApplications = applications.sort(compareByName);
 
   const providers = sortedCredentials.map(({ slug, ...provider }) => provider);
   const catalog = {
@@ -42,7 +42,7 @@ async function main() {
     version: catalogVersion,
     collections: {
       credentials: sortedCredentials,
-      aiClients: sortedAiClients,
+      applications: sortedApplications,
       dashboards: [],
       docs: [],
       recipes: [],
@@ -53,7 +53,7 @@ async function main() {
   await writeFile(catalogOutputPath, `${JSON.stringify(catalog, null, 2)}\n`);
 
   console.log(
-    `Built providers.json and catalog.json from ${sortedCredentials.length} credentials and ${sortedAiClients.length} AI clients`,
+    `Built providers.json and catalog.json from ${sortedCredentials.length} credentials and ${sortedApplications.length} applications`,
   );
 }
 
@@ -130,13 +130,13 @@ function validateCredential(credential, filePath) {
   validateVariables(credential.variables, credential.url, filePath);
 }
 
-function validateAiClient(client, filePath) {
+function validateApplication(application, filePath) {
   for (const field of ["name", "slug", "category", "homepage"]) {
-    assertNonEmptyString(client[field], `${filePath} must include a non-empty "${field}" string`);
+    assertNonEmptyString(application[field], `${filePath} must include a non-empty "${field}" string`);
   }
 
   assertOnlyFields(
-    client,
+    application,
     [
       "name",
       "slug",
@@ -152,17 +152,20 @@ function validateAiClient(client, filePath) {
     ],
     filePath,
   );
-  validateSlug(client.slug, `${filePath} slug`);
-  validateUrl(client.homepage, `${filePath} homepage`);
-  validateStringArray(client.platforms, `${filePath} platforms`);
-  if (client.appNames !== undefined) validateStringArray(client.appNames, `${filePath} appNames`);
-  if (client.bundleId !== undefined) {
-    assertNonEmptyString(client.bundleId, `${filePath} bundleId must be a non-empty string`);
+  if (application.category !== "Application") {
+    throw new Error(`${filePath} category must be "Application"`);
   }
-  validateCapabilities(client.capabilities, filePath);
-  validateLinks(client.docs, `${filePath} docs`);
-  validateDeeplinks(client.deeplinks, filePath);
-  validateLaunchers(client.launchers, filePath);
+  validateSlug(application.slug, `${filePath} slug`);
+  validateUrl(application.homepage, `${filePath} homepage`);
+  validateStringArray(application.platforms, `${filePath} platforms`);
+  if (application.appNames !== undefined) validateStringArray(application.appNames, `${filePath} appNames`);
+  if (application.bundleId !== undefined) {
+    assertNonEmptyString(application.bundleId, `${filePath} bundleId must be a non-empty string`);
+  }
+  validateCapabilities(application.capabilities, filePath);
+  validateLinks(application.docs, `${filePath} docs`);
+  validateDeeplinks(application.deeplinks, filePath);
+  validateLaunchers(application.launchers, filePath);
 }
 
 function validateCapabilities(capabilities, filePath) {

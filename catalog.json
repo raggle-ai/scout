@@ -1873,11 +1873,11 @@
         "domain": "www.remove.bg"
       }
     ],
-    "aiClients": [
+    "applications": [
       {
         "name": "Claude Code",
         "slug": "claude",
-        "category": "AI Client",
+        "category": "Application",
         "homepage": "https://www.anthropic.com/claude-code",
         "platforms": [
           "macOS",
@@ -1953,7 +1953,7 @@
       {
         "name": "Codex",
         "slug": "codex",
-        "category": "AI Client",
+        "category": "Application",
         "homepage": "https://openai.com/codex/",
         "platforms": [
           "macOS",
@@ -2036,7 +2036,7 @@
       {
         "name": "Cursor",
         "slug": "cursor",
-        "category": "AI Client",
+        "category": "Application",
         "homepage": "https://cursor.com",
         "platforms": [
           "macOS",
@@ -2079,7 +2079,7 @@
       {
         "name": "OpenCode",
         "slug": "opencode",
-        "category": "AI Client",
+        "category": "Application",
         "homepage": "https://opencode.ai/",
         "platforms": [
           "macOS",
@@ -2155,7 +2155,7 @@
       {
         "name": "T3 Code",
         "slug": "t3-code",
-        "category": "AI Client",
+        "category": "Application",
         "homepage": "https://t3.codes/",
         "platforms": [
           "macOS",
@@ -2194,6 +2194,93 @@
           {
             "label": "Documentation",
             "url": "https://pingdotgg-t3code.mintlify.app/"
+          }
+        ]
+      },
+      {
+        "name": "Typora",
+        "slug": "typora",
+        "category": "Application",
+        "homepage": "https://typora.io/",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "appNames": [
+          "Typora.app"
+        ],
+        "capabilities": {
+          "opensProjectFolder": true,
+          "canResumeProjectSession": false,
+          "canStartNewProjectSession": false
+        },
+        "launchers": [
+          {
+            "id": "open-folder-command",
+            "label": "Open folder",
+            "kind": "command",
+            "intent": "open-folder",
+            "urlTemplate": "open -a Typora {absolutePath}",
+            "variables": [
+              {
+                "key": "absolutePath",
+                "label": "Project folder",
+                "placeholder": "/Users/you/project",
+                "format": "absolute-path",
+                "encoding": "none"
+              }
+            ]
+          }
+        ],
+        "docs": [
+          {
+            "label": "Support",
+            "url": "https://support.typora.io/"
+          }
+        ]
+      },
+      {
+        "name": "Visual Studio Code",
+        "slug": "visual-studio-code",
+        "category": "Application",
+        "homepage": "https://code.visualstudio.com/",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "appNames": [
+          "Visual Studio Code.app"
+        ],
+        "bundleId": "com.microsoft.VSCode",
+        "capabilities": {
+          "opensProjectFolder": true,
+          "canResumeProjectSession": false,
+          "canStartNewProjectSession": false
+        },
+        "launchers": [
+          {
+            "id": "open-folder-command",
+            "label": "Open folder",
+            "kind": "command",
+            "intent": "open-folder",
+            "urlTemplate": "code {absolutePath}",
+            "variables": [
+              {
+                "key": "absolutePath",
+                "label": "Project folder",
+                "placeholder": "/Users/you/project",
+                "format": "absolute-path",
+                "encoding": "none"
+              }
+            ]
+          }
+        ],
+        "docs": [
+          {
+            "label": "Command line",
+            "url": "https://code.visualstudio.com/docs/editor/command-line"
           }
         ]
       }
