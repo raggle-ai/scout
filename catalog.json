@@ -1642,6 +1642,21 @@
         ]
       },
       {
+        "slug": "basecamp",
+        "name": "Basecamp",
+        "url": "https://launchpad.37signals.com/integrations",
+        "category": "Productivity",
+        "domain": "launchpad.37signals.com",
+        "credentialUrls": [
+          {
+            "label": "OAuth apps",
+            "kind": "oauth-app",
+            "url": "https://launchpad.37signals.com/integrations",
+            "domain": "launchpad.37signals.com"
+          }
+        ]
+      },
+      {
         "slug": "basin",
         "name": "Basin",
         "url": "https://usebasin.com/app/api_settings",

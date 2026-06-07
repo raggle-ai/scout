@@ -1409,6 +1409,12 @@
     ]
   },
   {
+    "name": "Basecamp",
+    "url": "https://launchpad.37signals.com/integrations",
+    "category": "Productivity",
+    "domain": "launchpad.37signals.com"
+  },
+  {
     "name": "Basin",
     "url": "https://usebasin.com/app/api_settings",
     "category": "Productivity",

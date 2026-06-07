@@ -29,6 +29,16 @@ const categoryOrder = [
   "Media",
 ];
 
+const credentialUrlKinds = [
+  "api-key",
+  "oauth-app",
+  "access-token",
+  "webhook-secret",
+  "service-account",
+  "dashboard",
+  "docs",
+];
+
 async function main() {
   const credentials = await readCredentials();
   const applications = await readCollection(applicationsDir, validateApplication);
@@ -36,7 +46,7 @@ async function main() {
   const sortedCredentials = credentials.sort(compareCredentials);
   const sortedApplications = applications.sort(compareByName);
 
-  const providers = sortedCredentials.map(({ slug, ...provider }) => provider);
+  const providers = sortedCredentials.map(({ slug, credentialUrls, ...provider }) => provider);
   const catalog = {
     name: catalogName,
     version: catalogVersion,
@@ -122,12 +132,65 @@ function validateCredential(credential, filePath) {
 
   assertOnlyFields(
     credential,
-    ["name", "slug", "url", "category", "domain", "variables"],
+    ["name", "slug", "url", "category", "domain", "variables", "credentialUrls"],
     filePath,
   );
   validateUrl(credential.url, `${filePath} url`);
   validateHostname(credential.domain, `${filePath} domain`);
   validateVariables(credential.variables, credential.url, filePath);
+  validateCredentialUrls(credential.credentialUrls, credential, filePath);
+}
+
+function validateCredentialUrls(credentialUrls, credential, filePath) {
+  if (credentialUrls === undefined) return;
+  if (!Array.isArray(credentialUrls) || credentialUrls.length === 0) {
+    throw new Error(`${filePath} credentialUrls must be a non-empty array`);
+  }
+
+  let includesPrimaryUrl = false;
+
+  for (const credentialUrl of credentialUrls) {
+    assertOnlyFields(
+      credentialUrl,
+      ["label", "kind", "url", "domain", "variables"],
+      `${filePath} credentialUrls`,
+    );
+    assertNonEmptyString(
+      credentialUrl.label,
+      `${filePath} credentialUrls entries must include a non-empty label`,
+    );
+    assertNonEmptyString(
+      credentialUrl.kind,
+      `${filePath} credentialUrls "${credentialUrl.label}" must include a non-empty kind`,
+    );
+
+    if (!credentialUrlKinds.includes(credentialUrl.kind)) {
+      throw new Error(
+        `${filePath} credentialUrls "${credentialUrl.label}" kind must be one of: ${credentialUrlKinds.join(", ")}`,
+      );
+    }
+
+    assertNonEmptyString(
+      credentialUrl.url,
+      `${filePath} credentialUrls "${credentialUrl.label}" must include a non-empty url`,
+    );
+    assertNonEmptyString(
+      credentialUrl.domain,
+      `${filePath} credentialUrls "${credentialUrl.label}" must include a non-empty domain`,
+    );
+    validateUrl(credentialUrl.url, `${filePath} credentialUrls "${credentialUrl.label}" url`);
+    validateHostname(
+      credentialUrl.domain,
+      `${filePath} credentialUrls "${credentialUrl.label}" domain`,
+    );
+    validateVariables(credentialUrl.variables, credentialUrl.url, filePath);
+
+    if (credentialUrl.url === credential.url) includesPrimaryUrl = true;
+  }
+
+  if (!includesPrimaryUrl) {
+    throw new Error(`${filePath} credentialUrls must include the primary url`);
+  }
 }
 
 function validateApplication(application, filePath) {
