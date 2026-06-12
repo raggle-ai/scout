@@ -1,0 +1,23 @@
+{
+  "name": "Trigger.dev",
+  "url": "https://cloud.trigger.dev/orgs/{organizationSlug}/projects/{projectRef}/env/{environmentSlug}/apikeys",
+  "category": "DevOps",
+  "domain": "cloud.trigger.dev",
+  "variables": [
+    {
+      "key": "organizationSlug",
+      "label": "Organization slug",
+      "placeholder": "your-org"
+    },
+    {
+      "key": "projectRef",
+      "label": "Project ref",
+      "placeholder": "your-project"
+    },
+    {
+      "key": "environmentSlug",
+      "label": "Environment slug",
+      "placeholder": "dev"
+    }
+  ]
+}
