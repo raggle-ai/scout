@@ -1463,6 +1463,12 @@
     "domain": "app.cognism.com"
   },
   {
+    "name": "Crustdata",
+    "url": "https://app.crustdata.com/api-keys",
+    "category": "Productivity",
+    "domain": "app.crustdata.com"
+  },
+  {
     "name": "Deel",
     "url": "https://developer.deel.com/api/authentication",
     "category": "Productivity",
