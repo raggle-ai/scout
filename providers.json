@@ -1305,6 +1305,12 @@
     "domain": "coralogix.com"
   },
   {
+    "name": "DataFast",
+    "url": "https://datafa.st/dashboard/settings?tab=api",
+    "category": "Analytics",
+    "domain": "datafa.st"
+  },
+  {
     "name": "Google Analytics",
     "url": "https://analytics.google.com/analytics/web/",
     "category": "Analytics",
