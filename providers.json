@@ -986,6 +986,12 @@
     "domain": "app.docker.com"
   },
   {
+    "name": "Doppler",
+    "url": "https://dashboard.doppler.com/workplace/25d31656c60e590f839f/tokens/cli",
+    "category": "DevOps",
+    "domain": "dashboard.doppler.com"
+  },
+  {
     "name": "Fly.io",
     "url": "https://fly.io/dashboard",
     "category": "DevOps",
