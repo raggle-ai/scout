@@ -1344,6 +1344,13 @@
         "domain": "app.brevo.com"
       },
       {
+        "slug": "buttondown",
+        "name": "Buttondown",
+        "url": "https://buttondown.com/keys",
+        "category": "Email",
+        "domain": "buttondown.com"
+      },
+      {
         "slug": "courier",
         "name": "Courier",
         "url": "https://app.courier.com/settings/api-keys",
