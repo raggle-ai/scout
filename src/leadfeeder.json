@@ -1,0 +1,13 @@
+{
+  "name": "Leadfeeder",
+  "url": "https://app.leadfeeder.com/f/settings/personal/{ACCOUNT_ID}/api-keys",
+  "category": "Analytics",
+  "domain": "app.leadfeeder.com",
+  "variables": [
+    {
+      "key": "ACCOUNT_ID",
+      "label": "Account ID",
+      "placeholder": "123456"
+    }
+  ]
+}
