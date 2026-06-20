@@ -102,6 +102,12 @@
     "domain": "jina.ai"
   },
   {
+    "name": "Magnitude",
+    "url": "https://app.magnitude.dev/api-keys",
+    "category": "AI/ML",
+    "domain": "app.magnitude.dev"
+  },
+  {
     "name": "Mistral",
     "url": "https://console.mistral.ai/home?profile_dialog=api-keys",
     "category": "AI/ML",
