@@ -1475,6 +1475,12 @@
     ]
   },
   {
+    "name": "CocoSign",
+    "url": "https://cocosign.com/",
+    "category": "Productivity",
+    "domain": "cocosign.com"
+  },
+  {
     "name": "Cognism",
     "url": "https://app.cognism.com/",
     "category": "Productivity",
@@ -1493,10 +1499,34 @@
     "domain": "developer.deel.com"
   },
   {
+    "name": "DocSend",
+    "url": "https://www.docsend.com/integrations/",
+    "category": "Productivity",
+    "domain": "docsend.com"
+  },
+  {
+    "name": "Docusign",
+    "url": "https://admin.docusign.com/apps-and-keys",
+    "category": "Productivity",
+    "domain": "admin.docusign.com"
+  },
+  {
+    "name": "DottedSign",
+    "url": "https://developers.dottedsign.com/",
+    "category": "Productivity",
+    "domain": "developers.dottedsign.com"
+  },
+  {
     "name": "Dub",
     "url": "https://app.dub.co/settings/tokens",
     "category": "Productivity",
     "domain": "app.dub.co"
+  },
+  {
+    "name": "eSignly",
+    "url": "https://www.esignly.com/esignly-api.html",
+    "category": "Productivity",
+    "domain": "esignly.com"
   },
   {
     "name": "Featurebase",
@@ -1584,6 +1614,12 @@
     "domain": "dashboard-v3.nylas.com"
   },
   {
+    "name": "PandaDoc",
+    "url": "https://app.pandadoc.com/a/#/settings/api-dashboard",
+    "category": "Productivity",
+    "domain": "app.pandadoc.com"
+  },
+  {
     "name": "People Data Labs",
     "url": "https://dashboard.peopledatalabs.com/api-keys",
     "category": "Productivity",
@@ -1615,6 +1651,30 @@
     "domain": "app.shortcut.com"
   },
   {
+    "name": "Signaturely",
+    "url": "https://docs.signaturely.com/",
+    "category": "Productivity",
+    "domain": "docs.signaturely.com"
+  },
+  {
+    "name": "Signeasy",
+    "url": "https://signeasy.com/api",
+    "category": "Productivity",
+    "domain": "signeasy.com"
+  },
+  {
+    "name": "signNow",
+    "url": "https://app.signnow.com/webapp/api",
+    "category": "Productivity",
+    "domain": "app.signnow.com"
+  },
+  {
+    "name": "SignRequest",
+    "url": "https://signrequest.com/api/v1/docs/",
+    "category": "Productivity",
+    "domain": "signrequest.com"
+  },
+  {
     "name": "Slack",
     "url": "https://api.slack.com/apps",
     "category": "Productivity",
@@ -1643,6 +1703,12 @@
     "url": "https://wiza.co/app/settings/api",
     "category": "Productivity",
     "domain": "wiza.co"
+  },
+  {
+    "name": "Yousign",
+    "url": "https://developers.yousign.com/docs/api-keys",
+    "category": "Productivity",
+    "domain": "developers.yousign.com"
   },
   {
     "name": "Companies House",
