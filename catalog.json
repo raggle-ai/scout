@@ -508,6 +508,13 @@
         "domain": "app.marqeta.com"
       },
       {
+        "slug": "mercury",
+        "name": "Mercury",
+        "url": "https://app.mercury.com/settings/tokens",
+        "category": "Fintech",
+        "domain": "app.mercury.com"
+      },
+      {
         "slug": "method-financial",
         "name": "Method Financial",
         "url": "https://app.methodfi.com/",
