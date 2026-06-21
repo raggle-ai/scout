@@ -10,38 +10,6 @@
     "canResumeProjectSession": true,
     "canStartNewProjectSession": true
   },
-  "deeplinks": [
-    {
-      "id": "open-project",
-      "label": "Open project in OpenCode",
-      "intent": "open-project",
-      "urlTemplate": "opencode://open-project?directory={absolutePath}",
-      "variables": [
-        {
-          "key": "absolutePath",
-          "label": "Project folder",
-          "placeholder": "/Users/you/project",
-          "format": "absolute-path",
-          "encoding": "url-component"
-        }
-      ]
-    },
-    {
-      "id": "new-session",
-      "label": "Start new OpenCode session",
-      "intent": "new-session",
-      "urlTemplate": "opencode://new-session?directory={absolutePath}",
-      "variables": [
-        {
-          "key": "absolutePath",
-          "label": "Project folder",
-          "placeholder": "/Users/you/project",
-          "format": "absolute-path",
-          "encoding": "url-component"
-        }
-      ]
-    }
-  ],
   "launchers": [
     {
       "id": "open-project-command",
@@ -55,6 +23,29 @@
           "label": "Project folder",
           "placeholder": "/Users/you/project",
           "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    },
+    {
+      "id": "run-prompt-command",
+      "label": "Run prompt from terminal",
+      "kind": "command",
+      "intent": "new-session",
+      "urlTemplate": "opencode run --dir {absolutePath} {prompt}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        },
+        {
+          "key": "prompt",
+          "label": "Prompt",
+          "placeholder": "Investigate the failing tests",
+          "format": "string",
           "encoding": "none"
         }
       ]

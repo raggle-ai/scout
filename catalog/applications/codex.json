@@ -28,6 +28,28 @@
       ]
     },
     {
+      "id": "new-thread-with-prompt",
+      "label": "Start new Codex thread with prompt",
+      "intent": "new-session",
+      "urlTemplate": "codex://threads/new?path={absolutePath}&prompt={prompt}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "url-component"
+        },
+        {
+          "key": "prompt",
+          "label": "Initial prompt",
+          "placeholder": "Investigate the failing tests",
+          "format": "string",
+          "encoding": "url-component"
+        }
+      ]
+    },
+    {
       "id": "resume-thread",
       "label": "Resume Codex thread",
       "intent": "resume-session",
@@ -69,8 +91,8 @@
   ],
   "docs": [
     {
-      "label": "Developer guide",
-      "url": "https://developers.openai.com/api/docs/guides/code-generation"
+      "label": "App commands",
+      "url": "https://developers.openai.com/codex/app/commands"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "name": "ZCode",
+  "slug": "zcode",
+  "category": "Application",
+  "homepage": "https://zcode.z.ai/",
+  "platforms": ["macOS"],
+  "appNames": ["ZCode.app"],
+  "bundleId": "dev.zcode.app",
+  "capabilities": {
+    "opensProjectFolder": true,
+    "canResumeProjectSession": true,
+    "canStartNewProjectSession": true
+  },
+  "launchers": [
+    {
+      "id": "open-project-command",
+      "label": "Open project from terminal",
+      "kind": "command",
+      "intent": "open-project",
+      "urlTemplate": "\"/Applications/ZCode.app/Contents/Resources/glm/zcode.cjs\" --cwd {absolutePath}",
+      "variables": [
+        {
+          "key": "absolutePath",
+          "label": "Project folder",
+          "placeholder": "/Users/you/project",
+          "format": "absolute-path",
+          "encoding": "none"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "label": "Documentation",
+      "url": "https://zcode.z.ai/"
+    }
+  ]
+}
