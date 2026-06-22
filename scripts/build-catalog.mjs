@@ -24,6 +24,7 @@ const categoryOrder = [
   "Auth",
   "Analytics",
   "Storage",
+  "E-Signature",
   "Productivity",
   "Government",
   "Media",
