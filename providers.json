@@ -812,6 +812,12 @@
     "domain": "trychroma.com"
   },
   {
+    "name": "ClickHouse",
+    "url": "https://console.clickhouse.cloud/organizations/-/keys",
+    "category": "Database",
+    "domain": "console.clickhouse.cloud"
+  },
+  {
     "name": "CockroachDB",
     "url": "https://cockroachlabs.cloud/",
     "category": "Database",
