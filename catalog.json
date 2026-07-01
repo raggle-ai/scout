@@ -1372,6 +1372,13 @@
         "domain": "app.brevo.com"
       },
       {
+        "slug": "buttondown",
+        "name": "Buttondown",
+        "url": "https://buttondown.com/keys",
+        "category": "Email",
+        "domain": "buttondown.com"
+      },
+      {
         "slug": "courier",
         "name": "Courier",
         "url": "https://app.courier.com/settings/api-keys",
@@ -1580,6 +1587,20 @@
         "url": "https://ui.honeycomb.io/account",
         "category": "Analytics",
         "domain": "ui.honeycomb.io"
+      },
+      {
+        "slug": "leadfeeder",
+        "name": "Leadfeeder",
+        "url": "https://app.leadfeeder.com/f/settings/personal/{ACCOUNT_ID}/api-keys",
+        "category": "Analytics",
+        "domain": "app.leadfeeder.com",
+        "variables": [
+          {
+            "key": "ACCOUNT_ID",
+            "label": "Account ID",
+            "placeholder": "123456"
+          }
+        ]
       },
       {
         "slug": "mixpanel",
