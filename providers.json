@@ -156,6 +156,12 @@
     "domain": "platform.stability.ai"
   },
   {
+    "name": "Tinker",
+    "url": "https://tinker-console.thinkingmachines.ai/keys",
+    "category": "AI/ML",
+    "domain": "tinker-console.thinkingmachines.ai"
+  },
+  {
     "name": "Together AI",
     "url": "https://api.together.ai/settings/api-keys",
     "category": "AI/ML",
